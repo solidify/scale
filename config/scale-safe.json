@@ -1,0 +1,77 @@
+{
+  "name": "SAFe process config",
+  "version": "0.0.1",
+  "process": {
+    "types": [
+      {
+        "id": "scale-art",
+        "name": "Agile Release Train",
+        "description": "Agile Release Train",
+        "color": "f6546a",
+        "icon": "icon_gift",
+        "fields": [
+          {
+            "id": "art-teams",
+            "name": "Scale.ART.Teams",
+            "decription": "Teams working on this ART.",
+            "type": "PlainText"
+          }
+        ]
+      },
+      {
+        "id": "scale-pi",
+        "name": "Program Increment",
+        "description": "Program Increment.",
+        "color": "f6546a",
+        "icon": "icon_gift",
+        "fields": [
+          {
+            "id": "pi-sprints",
+            "name": "Scale.PI.Sprints",
+            "decription": "Sprints related to the PI.",
+            "type": "PlainText"
+          },
+          {
+            "id": "pi-from-date",
+            "name": "Scale.PI.FromDate",
+            "decription": "PI start date.",
+            "type": "DateTime"
+          },
+          {
+            "id": "pi-to-date",
+            "name": "ScalePI.ToDate",
+            "decription": "PI end date.",
+            "type": "DateTime"
+          }
+        ]
+      },
+      {
+        "id": "scale-pi-objective",
+        "name": "PI Objective",
+        "description": "Program Increment Objective.",
+        "color": "f6546a",
+        "icon": "icon_gift",
+        "fields": [
+          {
+            "id": "pi-objective-planned-value",
+            "name": "Scale.PIObjective.PlannedValue",
+            "decription": "Planned business value.",
+            "type": "Integer"
+          },
+          {
+            "id": "pi-objective-actual-value",
+            "name": "Scale.PIObjective.ActualValue",
+            "decription": "Actual business value.",
+            "type": "Integer"
+          },
+          {
+            "id": "pi-objective-team",
+            "name": "Scale.PIObjective.Team",
+            "decription": "Name of team owning this objective (optional).",
+            "type": "String"
+          }
+        ]
+      }
+    ]
+  }
+}
