@@ -13,7 +13,7 @@
           {
             "id": "art-teams",
             "name": "Scale_ART_Teams",
-            "decription": "Teams working on this ART.",
+            "description": "Teams working on this ART.",
             "type": "PlainText"
           }
         ]
@@ -28,19 +28,19 @@
           {
             "id": "pi-sprints",
             "name": "Scale_PI_Sprints",
-            "decription": "Sprints related to the PI.",
+            "description": "Sprints related to the PI.",
             "type": "PlainText"
           },
           {
             "id": "pi-from-date",
             "name": "Scale_PI_FromDate",
-            "decription": "PI start date.",
+            "description": "PI start date.",
             "type": "DateTime"
           },
           {
             "id": "pi-to-date",
             "name": "ScalePI_ToDate",
-            "decription": "PI end date.",
+            "description": "PI end date.",
             "type": "DateTime"
           }
         ]
@@ -55,19 +55,19 @@
           {
             "id": "pi-objective-planned-value",
             "name": "Scale_PIObjective_PlannedValue",
-            "decription": "Planned business value.",
+            "description": "Planned business value.",
             "type": "Integer"
           },
           {
             "id": "pi-objective-actual-value",
             "name": "Scale_PIObjective_ActualValue",
-            "decription": "Actual business value.",
+            "description": "Actual business value.",
             "type": "Integer"
           },
           {
             "id": "pi-objective-team",
             "name": "Scale_PIObjective_Team",
-            "decription": "Name of team owning this objective (optional).",
+            "description": "Name of team owning this objective (optional).",
             "type": "String"
           }
         ]
