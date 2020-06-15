@@ -1,6 +1,6 @@
 {
-  "name": "SAFe process config",
-  "version": "0.0.1",
+  "name": "SAFe",
+  "version": "1.0.0-preview",
   "process": {
     "types": [
       {
@@ -16,7 +16,7 @@
             "description": "Teams working on this ART.",
             "type": "PlainText"
           },
-               {
+          {
             "id": "art-dependent-teams",
             "name": "Scale_ART_Dependent_Teams",
             "description": "Teams this ART is dependent on.",
@@ -36,18 +36,6 @@
             "name": "Scale_PI_Sprints",
             "description": "Sprints related to the PI.",
             "type": "PlainText"
-          },
-          {
-            "id": "pi-from-date",
-            "name": "Scale_PI_FromDate",
-            "description": "PI start date.",
-            "type": "DateTime"
-          },
-          {
-            "id": "pi-to-date",
-            "name": "ScalePI_ToDate",
-            "description": "PI end date.",
-            "type": "DateTime"
           }
         ]
       },
@@ -78,7 +66,7 @@
           },
           {
             "id": "pi-objective-is-committed",
-            "name": "Scale_PIObjective_Is_Committed",
+            "name": "Scale_PIObjective_Committed",
             "description": "Is the objective committed?",
             "type": "Boolean"
           }
