@@ -1,7 +1,7 @@
 {
   "name": "SAFe",
   "version": "1.0.0",
-  "author", "Solidify",
+  "author": "Solidify",
   "process": {
     "types": [
       {
