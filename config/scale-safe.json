@@ -121,10 +121,16 @@
         ],
         "states": [
           {
-            "name": "New",
+            "name": "Program Risk",
             "category": "Proposed",
             "state": "New",
             "color": "b2b2b2"
+          },
+          {
+            "name": "Resolved",
+            "category": "Completed",
+            "state": "Resolved",
+            "color": "339933"
           },
           {
             "name": "Owned",
@@ -143,12 +149,6 @@
             "category": "In Progress",
             "state": "Mitigated",
             "color": "007acc"
-          },
-          {
-            "name": "Resolved",
-            "category": "Completed",
-            "state": "Resolved",
-            "color": "339933"
           },
           {
             "name": "Removed",
