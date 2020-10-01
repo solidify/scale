@@ -1,7 +1,5 @@
 # Solidify @Scale - SAFe for Azure DevOps
 
-![](static/scale-icon.png)
-
 With the @Scale extension your Azure DevOps project will be enriched to include artifacts and tools from scaled agile ideas, such as the Scaled Agile Framework, SAFe.
 
 In this repository we work on features and issues related to the @Scale Azure DevOps extension.
