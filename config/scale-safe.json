@@ -78,26 +78,13 @@
         "name": "Risk",
         "description": "Work item to track risks.",
         "color": "FFA500",
-        "icon": "icon_cone",
+        "icon": "icon_traffic_cone",
         "fields": [
-          {
-            "id": "risk-description",
-            "name": "System.Description",
-            "description": "Risk description.",
-            "type": "String"
-          },
           {
             "id": "risk-impact-description",
             "name": "Scale_Risk_Impact_Description",
             "description": "Risk impact description.",
             "type": "String"
-          },
-          {
-            "id": "risk-probability",
-            "name": "Microsoft.VSTS.CMMI.Probability",
-            "description": "A number that indicates the chance that the risk will occur.",
-            "type": "Integer",
-            "system-field": true 
           },
           {
             "id": "risk-impact",
@@ -110,50 +97,42 @@
             "name": "Scale_Risk_Score",
             "description": "Risk assessment score (risk-impact * risk-probability)",
             "type": "Integer"
-          },
-          {
-            "id": "risk-target-date",
-            "name": "Microsoft.VSTS.Scheduling.TargetDate",
-            "description": "Date by which risk should be resolved.",
-            "type": "DateTime",
-            "system-field": true 
           }
         ],
         "states": [
           {
             "name": "Program Risk",
-            "category": "Proposed",
-            "state": "New",
+            "stateCategory": "Proposed",
+            "order": 1,
             "color": "b2b2b2"
           },
           {
             "name": "Resolved",
-            "category": "Completed",
-            "state": "Resolved",
+            "stateCategory": "Completed",
+            "order": 2,
             "color": "339933"
           },
           {
             "name": "Owned",
-            "category": "In Progress",
-            "state": "Owned",
+            "stateCategory": "In Progress",
+            "order": 3,
             "color": "007acc"
           },
           {
             "name": "Accepted",
-            "category": "In Progress",
-            "state": "Accepted",
+            "stateCategory": "In Progress",
+            "order": 4,
             "color": "007acc"
           },
           {
             "name": "Mitigated",
-            "category": "In Progress",
-            "state": "Mitigated",
+            "stateCategory": "In Progress",
+            "order": 5,
             "color": "007acc"
           },
           {
             "name": "Removed",
-            "category": "Removed",
-            "state": "Removed",
+            "stateCategory": "Removed",
             "color": "ffffff"
           }
         ]
