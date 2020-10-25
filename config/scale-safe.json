@@ -102,37 +102,37 @@
         "states": [
           {
             "name": "Program Risk",
-            "stateCategory": "Proposed",
-            "order": 1,
+            "category": "Proposed",
             "color": "b2b2b2"
           },
           {
             "name": "Resolved",
-            "stateCategory": "Completed",
-            "order": 2,
-            "color": "339933"
+            "category": "InProgress",
+            "color": "007acc"
           },
           {
             "name": "Owned",
-            "stateCategory": "In Progress",
-            "order": 3,
+            "category": "InProgress",
             "color": "007acc"
           },
           {
             "name": "Accepted",
-            "stateCategory": "In Progress",
-            "order": 4,
+            "category": "InProgress",
             "color": "007acc"
           },
           {
             "name": "Mitigated",
-            "stateCategory": "In Progress",
-            "order": 5,
+            "category": "InProgress",
             "color": "007acc"
           },
           {
+            "name": "Closed",
+            "category": "Completed",
+            "color": "339933"
+          },
+          {
             "name": "Removed",
-            "stateCategory": "Removed",
+            "category": "Removed",
             "color": "ffffff"
           }
         ]
