@@ -9,7 +9,7 @@
         "name": "Agile Release Train",
         "description": "Agile Release Train",
         "color": "f6546a",
-        "icon": "icon_gift",
+        "icon": "icon_government",
         "fields": [
           {
             "id": "art-teams",
@@ -44,8 +44,8 @@
         "id": "scale-pi-objective",
         "name": "PI Objective",
         "description": "Program Increment Objective.",
-        "color": "f6546a",
-        "icon": "icon_gift",
+        "color": "FF9900",
+        "icon": "icon_trophy",
         "fields": [
           {
             "id": "pi-objective-planned-value",
@@ -77,7 +77,7 @@
         "id": "scale-risk",
         "name": "Risk",
         "description": "Work item to track risks.",
-        "color": "FFA500",
+        "color": "FF0000",
         "icon": "icon_traffic_cone",
         "fields": [
           {
@@ -90,6 +90,12 @@
             "id": "risk-impact",
             "name": "Scale_Risk_Impact",
             "description": "Impact if risk to occurs",
+            "type": "Integer"
+          },
+          {
+            "id": "risk-impact",
+            "name": "Scale_Risk_Probability",
+            "description": "Probability that risk occurs",
             "type": "Integer"
           },
           {
