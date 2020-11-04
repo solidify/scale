@@ -1,6 +1,6 @@
 {
   "name": "SAFe",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Solidify",
   "process": {
     "types": [
@@ -9,7 +9,7 @@
         "name": "Agile Release Train",
         "description": "Agile Release Train",
         "color": "f6546a",
-        "icon": "icon_gift",
+        "icon": "icon_government",
         "fields": [
           {
             "id": "art-teams",
@@ -44,8 +44,8 @@
         "id": "scale-pi-objective",
         "name": "PI Objective",
         "description": "Program Increment Objective.",
-        "color": "f6546a",
-        "icon": "icon_gift",
+        "color": "FF9900",
+        "icon": "icon_trophy",
         "fields": [
           {
             "id": "pi-objective-planned-value",
@@ -70,6 +70,76 @@
             "name": "Scale_PIObjective_Committed",
             "description": "Is the objective committed?",
             "type": "Boolean"
+          }
+        ]
+      },
+      {
+        "id": "scale-risk",
+        "name": "Risk",
+        "description": "Work item to track risks.",
+        "color": "FF0000",
+        "icon": "icon_traffic_cone",
+        "fields": [
+          {
+            "id": "risk-impact-description",
+            "name": "Scale_Risk_Impact_Description",
+            "description": "Risk impact description.",
+            "type": "String"
+          },
+          {
+            "id": "risk-impact",
+            "name": "Scale_Risk_Impact",
+            "description": "Impact if risk to occurs",
+            "type": "Integer"
+          },
+          {
+            "id": "risk-impact",
+            "name": "Scale_Risk_Probability",
+            "description": "Probability that risk occurs",
+            "type": "Integer"
+          },
+          {
+            "id": "risk-score",
+            "name": "Scale_Risk_Score",
+            "description": "Risk assessment score (risk-impact * risk-probability)",
+            "type": "Integer"
+          }
+        ],
+        "states": [
+          {
+            "name": "Program Risk",
+            "category": "Proposed",
+            "color": "b2b2b2"
+          },
+          {
+            "name": "Resolved",
+            "category": "InProgress",
+            "color": "007acc"
+          },
+          {
+            "name": "Owned",
+            "category": "InProgress",
+            "color": "007acc"
+          },
+          {
+            "name": "Accepted",
+            "category": "InProgress",
+            "color": "007acc"
+          },
+          {
+            "name": "Mitigated",
+            "category": "InProgress",
+            "color": "007acc"
+          },
+          {
+            "name": "Closed",
+            "category": "Completed",
+            "color": "339933"
+          },
+          {
+            "name": "Removed",
+            "category": "Removed",
+            "color": "ffffff"
           }
         ]
       }
