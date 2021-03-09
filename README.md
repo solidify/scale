@@ -12,7 +12,7 @@ The @Scale extension is available for installation from the [Azure DevOps Market
 * [Report an issue](https://github.com/solidify/scale/issues/new?template=bug_report.md)
 
 # Releases
-Check out [Releases](https://github.com/solidify/scale/releases) to the right here in the repo for the information about the updates we're shipping.
+Check out [Releases](https://github.com/solidify/scale/releases) for information about the updates we're continuously shipping.
 
 # About @Scale
 ## Dependency management using a program board
