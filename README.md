@@ -5,7 +5,7 @@ With the @Scale extension your Azure DevOps project will be enriched to include 
 In this repository we work on features and issues related to the @Scale Azure DevOps extension.
 
 # Get @Scale
-The @Scale extension is hosted for installation on the [Azure DevOps Marketplace](https://marketplace.visualstudio.com/items?itemName=solidify.solidify-scale).
+The @Scale extension is available for installation from the [Azure DevOps Marketplace](https://marketplace.visualstudio.com/items?itemName=solidify.solidify-scale).
 
 # Feedback
 * [Request a new feature](https://github.com/solidify/scale/issues/new?template=feature_request.md)
