@@ -2,6 +2,14 @@
 
 With the @Scale extension your Azure DevOps project will be enriched to include artifacts and tools from scaled agile ideas, such as the Scaled Agile Framework, SAFe.
 
+Key features:
+
+* Dependency management using a program board
+* Objectives management
+* Risk management
+* Analytics
+* SAFe process alignment
+
 ![image.png](/docs/.attachments/image-e128c6b1-1889-4243-9710-31c681ae0f66.png)
 
 # Get @Scale
