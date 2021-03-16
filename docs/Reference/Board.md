@@ -1,5 +1,3 @@
-[[_TOC_]]
-
 Working together at scale requires increased visibility into what others are doing. @Scale adds an interactive program board to make documenting and sharing that information easier. 
 
 # Managing the program board

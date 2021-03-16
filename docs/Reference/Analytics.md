@@ -1,5 +1,3 @@
-[[_TOC_]]
-
 The Analytics hub gives you insights into how your teams perform. The reports in @Scale complements the built-in reports for metrics like the cumulative flow diagram.
 
 # Solution Train Predictability 

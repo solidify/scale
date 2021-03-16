@@ -1,5 +1,3 @@
-[[_TOC_]]
-
 # Managing Objectives
 
 The Objectives hub is intended to give overview of the goals set for the teams at ART level as well as per team. You add new objectives from the "+ New objective" button (6), which adds a new row to the table. In the table you can click on the title to open the work item form for the Objective (1). If the feature is associated with a board item you can expand the row to show the linked items (2) with title and state. The committed column (3) shows if an objective is committed or uncommitted. 

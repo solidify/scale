@@ -1,5 +1,3 @@
-[[_TOC_]]
-
 If @Scale gives an error it will also be logged in our telemetry so we should be able to work with you to track down the issue.
 
 # Trial and Team plan support

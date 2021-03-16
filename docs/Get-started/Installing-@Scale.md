@@ -1,5 +1,3 @@
-[[_TOC_]]
-
 @Scale is designed to be simple to add to your existing project. We require a subscription to manage access to the extension and we also customize your Azure DevOps process to improve the support for agile at scale. It may sounds like a lot but as you will see we take care of most of the work for you.
 
 # Installing @Scale 

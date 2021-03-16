@@ -1,5 +1,3 @@
-[[_TOC_]]
-
 The @Scale extension is a licensed product and not sold. The license format is a subscription license where the Licensee can add and remove users based on needs. When a user gets added into the license pool a deduction will be made from the available number of licenses in the subscription.
 
 @Scale licenses are separate from Azure DevOps licenses, where the purpose of the @Scale license is to control who gets access to the extension and in what role. See [Permissions]() for details on how the model works.

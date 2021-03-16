@@ -1,5 +1,3 @@
-[[_TOC_]]
-
 We bring SAFe to Azure DevOps!
 
 With the @Scale extension your Azure DevOps project will be enriched to include the terms, concepts and tools from SAFe. @Scale extends Azure DevOps to support program increment planning with a program board to commit and plan features and dependencies, use the risk board to identify and ROAM risks and use the objectives tool to define measurable objectives.

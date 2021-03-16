@@ -1,5 +1,3 @@
-[[_TOC_]]
-
 When Scale is installed for the first time it is required to acquire a subscription matching the use of the extension. A subscription can be created directly from the extension or created by us for scenarios such as pay by invoice or support for Azure DevOps Server (on-premise).
 
 # Create subscription

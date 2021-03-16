@@ -1,5 +1,3 @@
-[[_TOC_]]
-
 In @Scale permissions are controlled by application roles in combination with the Azure DevOps license and permissions assignments. This means that a user can get limited functionality in @Scale if they have the correct role but lacks the underlying access rights, for example a stakeholder user will typically not be able to create areas or iterations.
 
 # @Scale roles

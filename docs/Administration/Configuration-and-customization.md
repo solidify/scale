@@ -1,5 +1,3 @@
-[[_TOC_]]
-
 To configure the extension you need process configuration permissions in the Azure DevOps organization/collection or admin permission to create or manage an inherited process for the project.
 
 After the extension has been installed you access @Scale from the Boards Menu in Azure DevOps.

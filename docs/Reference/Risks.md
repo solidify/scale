@@ -1,5 +1,3 @@
-[[_TOC_]]
-
 Keeping track of project risks is key to successfully deliver on target. Use the risk board in @Scale to ROAM risk during PI planning and as a board to manage the risks over the course of delivering the next increment of your product.
 
 # Managing risks

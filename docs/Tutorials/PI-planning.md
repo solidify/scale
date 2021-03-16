@@ -1,1 +1,0 @@
-TODO: kolla om Scott eller Christoffer kan vara med på en intervju.

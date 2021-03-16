@@ -1,5 +1,3 @@
-[[_TOC_]]
-
 The planning hub is where we define how teams work together to deliver value. We also associate the ART with the program increments (PI) they work on. Program increments are defined using Azure DevOps iterations and ARTs can share PIs to align or have their on if they are on different cadences.
 
 # Setting up an Agile Release Train (ART)
