@@ -2,15 +2,15 @@
 
 With the @Scale extension your Azure DevOps project will be enriched to include artifacts and tools from scaled agile ideas, such as the Scaled Agile Framework, SAFe.
 
-Key features:
+![image.png](/docs/.attachments/image-e128c6b1-1889-4243-9710-31c681ae0f66.png)
+
+## Key features
 
 * Dependency management using a program board
 * Objectives management
 * Risk management
 * Analytics
 * SAFe process alignment
-
-![image.png](/docs/.attachments/image-e128c6b1-1889-4243-9710-31c681ae0f66.png)
 
 # Get @Scale
 The @Scale extension is available for installation from the [Azure DevOps Marketplace](https://marketplace.visualstudio.com/items?itemName=solidify.solidify-scale).
@@ -25,10 +25,9 @@ Check out the documenation for user and administration guidance.
 * [Administration](docs/Administration/index.md)
 * [Troubleshooting and support](docs/Troubleshooting-and-support.md)
 
-# Feedback
-* [Request a new feature](https://github.com/solidify/scale/issues/new?template=feature_request.md)
-* [Report an issue](https://github.com/solidify/scale/issues/new?template=bug_report.md)
-
 # Releases
 Check out [Releases](https://github.com/solidify/scale/releases) for information about the updates we're continuously shipping.
 
+# Feedback
+* [Request a new feature](https://github.com/solidify/scale/issues/new?template=feature_request.md)
+* [Report an issue](https://github.com/solidify/scale/issues/new?template=bug_report.md)
