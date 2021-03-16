@@ -12,11 +12,11 @@ Follow the steps below to get @Scale up and running in your project:
    1. Project and team (read and write). Read project and team info.
    1. Work items (read and write). Read and update work items, manage iterations.
 
-1. [Create a subscription](/Solidify-Engineering-System/Products/@Scale/Public-Documentation/Administration/Subscription-management). Any user can create a subscription and will then become the owner of the it.
-1. [Assign licenses](/Solidify-Engineering-System/Products/@Scale/Public-Documentation/Administration/Manage-licenses) to users of @Scale. 
-1. [Configure](/Solidify-Engineering-System/Products/@Scale/Public-Documentation/Administration/Configuration-and-customization) your project. @Scale requires certain elements in your planning process in order to function. As part of the setup we will add missing configuration to your project, where needed.
+1. [Create a subscription](/docs/Administration/Subscription-management.md). Any user can create a subscription and will then become the owner of the it.
+1. [Assign licenses](/docs/Administration/Manage-licenses.md) to users of @Scale. 
+1. [Configure](/docs/Administration/Configuration-and-customization.md) your project. @Scale requires certain elements in your planning process in order to function. As part of the setup we will add missing configuration to your project, where needed.
 
 # Related articles
 * [Install Azure DevOps extensions](https://docs.microsoft.com/en-us/azure/devops/marketplace/install-extension)
 * [Azure DevOps extension scopes](https://docs.microsoft.com/en-us/azure/devops/extend/develop/manifest?view=azure-devops#scopes)
-* [@Scale permissions](/Solidify-Engineering-System/Products/@Scale/Public-Documentation/Administration/Permissions)
+* [@Scale permissions](/docs/Administration/Permissions.md)
