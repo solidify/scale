@@ -22,10 +22,10 @@ Use the filter (2) to narrow down the items in the list, by default we filter on
 
 | **Filter** | **Function** |
 |---|---|
-| Title | |
-| Increment | |
-| Team | |
-| State | |
+| Title | Filter on part of the title |
+| Increment | Filter on program increment iteration paths or the root iteration level |
+| Team | Filter on the areas the selected teams own |
+| State | Filter on state |
 
 ## Create a dependency
 
