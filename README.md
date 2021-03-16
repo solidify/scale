@@ -29,5 +29,6 @@ Check out the documenation for user and administration guidance.
 Check out [Releases](https://github.com/solidify/scale/releases) for information about the updates we're continuously shipping.
 
 # Feedback
+* [Ask a question](https://github.com/solidify/scale/discussions)
 * [Request a new feature](https://github.com/solidify/scale/issues/new?template=feature_request.md)
 * [Report an issue](https://github.com/solidify/scale/issues/new?template=bug_report.md)
