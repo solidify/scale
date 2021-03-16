@@ -2,8 +2,8 @@
 
 | **Topic** |
 |---|
-| [Planning](Planning) |
-| [Objectives](Objectives) |
-| [Risks](Risks) |
-| [Board](Board) |
-| [Analytics](Analytics) |
+| [Planning](Planning.md) |
+| [Objectives](Objectives.md) |
+| [Risks](Risks.md) |
+| [Board](Board.md) |
+| [Analytics](Analytics.md) |
