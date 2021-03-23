@@ -37,5 +37,3 @@ Press Save to trigger the configuration of @Scale. After a few seconds the Plann
 # Customization
 
 More info coming soon...
-
-# Related articles

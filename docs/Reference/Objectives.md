@@ -23,7 +23,7 @@ Clicking the action menu (...) for an Objective shows the available commands for
 | **Command** | **Function** |
 |---|---|
 | Edit objective | Edit the selected Objective |
-| Add link | [Link board item to Objective]() |
+| Add link | [Link board item to Objective](#link-board-item-to-objective) |
 | Delete objective | Deletes the selected Objective work item |
 
 ## Linked board item commands
@@ -41,7 +41,7 @@ The link board item to objective dialog is used to associate an objective to one
 
 | **Control** | **Function** |
 |---|---|
-| ![image.png](/docs/.attachments/image-4e95335d-c334-4344-a917-3250b39f98fb.png) | Select [active program increment]() |
+| ![image.png](/docs/.attachments/image-4e95335d-c334-4344-a917-3250b39f98fb.png) | Select [active program increment](/docs/Reference/Active-program-increment.md) |
 | ![image.png](/docs/.attachments/image-58e02360-f706-4d54-b513-c95394e04ee9.png) | Refresh content on page |
 | ![image.png](/docs/.attachments/image-9e9e362c-248f-49d9-a2b2-03962629a97c.png) | Enter or exit full screen mode |
 

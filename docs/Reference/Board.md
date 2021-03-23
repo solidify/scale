@@ -2,7 +2,7 @@ Working together at scale requires increased visibility into what others are doi
 
 # Managing the program board
 
-The program board shows the planned work for your team grouped by team and iteration. Use the [mapping pane]() (1) to drag planned items to the board. You can also add new items directly on the board using the "+ New item" context menu (2). 
+The program board shows the planned work for your team grouped by team and iteration. Use the [mapping pane](#mapping-items-to-board) (1) to drag planned items to the board. You can also add new items directly on the board using the "+ New item" context menu (2). 
 
 Dependencies between items are show as read strings (3) or you can add explicit work items to represent the dependency (4). Another nice charm on the card is the objective icon (6) that is shown when a board item is associated with an objective.
 
@@ -43,9 +43,9 @@ If you want to remove a dependency between two cards either open one of the work
 |---|---|
 | ![image.png](/docs/.attachments/image-4e95335d-c334-4344-a917-3250b39f98fb.png) | Select active program increment |
 | ![image.png](/docs/.attachments/image-58e02360-f706-4d54-b513-c95394e04ee9.png) | Refresh content on page |
-| ![image.png](/docs/.attachments/image-4d4aeaa2-efb7-4e21-9cfc-854e997d03ce.png) | Settings: [Board](), [Exclusions](), [Fields](), [Styles]() |
+| ![image.png](/docs/.attachments/image-4d4aeaa2-efb7-4e21-9cfc-854e997d03ce.png) | Settings: [Board](#board-settings), [Exclusions](#exclusions), [Fields](#fields), [Styles](#styles) |
 | ![image.png](/docs/.attachments/image-00d419df-cc66-42a6-b982-52171260bf8a.png) | Filter |
-| ![image.png](/docs/.attachments/image-d2b2e0d4-a38b-4635-af19-b7578759ef1c.png) | [Options]() |
+| ![image.png](/docs/.attachments/image-d2b2e0d4-a38b-4635-af19-b7578759ef1c.png) | [Options](#options) |
 | ![image.png](/docs/.attachments/image-9e9e362c-248f-49d9-a2b2-03962629a97c.png) | Enter or exit full screen mode |
 
 ## Board settings
@@ -104,4 +104,4 @@ The options menu lets you quickly access frequently used features.
 |---|---|
 | Show compact cards | Show card in full or compact layout. The compact mode is great if you want to get an overview of a large board |
 | Show dependencies | Show or hide the dependency lines between cards |
-| Side panel | Open side panel tool: [Mapping]() |
+| Side panel | Open side panel tool: [Mapping](#mapping-items-to-board) |

@@ -18,10 +18,10 @@ Clicking the action menu (...) for an ART shows the available commands for the i
 
 | **Command** | **Function** |
 |---|---|
-| Add new PI to ART | [Create a new PI and associate to the ART]() |
-| Add existing PI to ART | [Associate an existing PI to the ART]() |
+| Add new PI to ART | [Create a new PI and associate to the ART](#create-a-new-pi-and-associate-to-an-art) |
+| Add existing PI to ART | [Associate an existing PI to the ART](#associate-an-existing-pi-to-an-art) |
 | Edit ART | Edit the ART definition if you want to change the name or associated teams |
-| Set ART team order | [Configure the order of the teams for an ART]() |
+| Set ART team order | [Configure the order of the teams for an ART](#configure-the-order-of-the-teams-for-an-art) |
 | Delete ART | Delete the selected ART. The ART work item is deleted but can be restored like other work items from the [Recycle bin](https://docs.microsoft.com/en-us/azure/devops/boards/backlogs/remove-delete-work-items?view=azure-devops#restore-or-destroy-work-items) |
 
 ### Create a new PI and associate to an ART
@@ -65,7 +65,7 @@ Clicking the action menu (...) for a PI shows the available commands for the ite
 | **Control** | **Function** |
 |---|---|
 | ![image.png](/docs/.attachments/image-58e02360-f706-4d54-b513-c95394e04ee9.png) | Refresh content on page |
-| ![image.png](/docs/.attachments/image-4d4aeaa2-efb7-4e21-9cfc-854e997d03ce.png) | Settings: [Sprints]() |
+| ![image.png](/docs/.attachments/image-4d4aeaa2-efb7-4e21-9cfc-854e997d03ce.png) | Settings: [Sprints](#sprints-configuration) |
 | ![image.png](/docs/.attachments/image-9e9e362c-248f-49d9-a2b2-03962629a97c.png) | Enter or exit full screen mode |
 
 ## Sprints configuration
