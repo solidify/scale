@@ -12,7 +12,7 @@ When you have identify a risk you can quickly add it to the board using the "+ n
 |---|---|
 | ![image.png](/docs/.attachments/image-4e95335d-c334-4344-a917-3250b39f98fb.png) | Select active program increment |
 | ![image.png](/docs/.attachments/image-58e02360-f706-4d54-b513-c95394e04ee9.png) | Refresh content on page |
-| ![image.png](/docs/.attachments/image-4d4aeaa2-efb7-4e21-9cfc-854e997d03ce.png) | Settings: [Fields]() |
+| ![image.png](/docs/.attachments/image-4d4aeaa2-efb7-4e21-9cfc-854e997d03ce.png) | Settings: [Fields](#fields-settings) |
 | ![image.png](/docs/.attachments/image-9e9e362c-248f-49d9-a2b2-03962629a97c.png) | Enter or exit full screen mode |
 
 ## Fields settings

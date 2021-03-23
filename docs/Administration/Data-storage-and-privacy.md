@@ -4,7 +4,7 @@ All data created by the @Scale extension is stored in the form of work items, me
 
 All data created by the extension that could be considered additional or data created by the extension is also stored in the scope of the organization. 
 
-Apart from helping you manage data in backlog we also add additional work item types (such as objectives and risks) to your process as described in [Customization]() secton.
+Apart from helping you manage data in backlog we also add additional work item types (such as objectives and risks) to your process as described in [Customization](/docs/Administration/Configuration-and-customization.md#customization) secton.
 
 See the [@Scale - Privacy Policy](https://marketplace.visualstudio.com/items/solidify.solidify-scale/privacy) for more details.
 

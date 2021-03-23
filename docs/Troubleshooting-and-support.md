@@ -10,7 +10,7 @@ Beyond using [Discussions](https://github.com/solidify/scale/discussions) you ca
 Reach out to your assigned contact for priority support.
 
 # Bugs or product enchantment requests
-Bugs and product enhancements can be submitted to the [Issues](https://github.com/solidify/scale/issues) for @Scale.
+Bugs and product enhancements can be submitted as [Issues](https://github.com/solidify/scale/issues) for @Scale.
 
 # Extended support
 Solidify offers extended support where customers with valid licenses can get assistance with practices related to @Scale, such as SAFe practices, Azure DevOps as well as how to best integrate @Scale into existing workflows.

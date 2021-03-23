@@ -56,7 +56,7 @@ If you want to change plan or discuss an Enterprise subscription, contact us at 
 
 ## What happens after the trial?
 
-When the trial expires you will no longer be able to access @Scale. Since we don't want to interfere with your data we will not remove anything when the subscription ends. Therefore to remove the data @Scale has added to your Azure DevOps environment you need to follow the instruction in [Uninstalling @Scale]().
+When the trial expires you will no longer be able to access @Scale. Since we don't want to interfere with your data we will not remove anything when the subscription ends. Therefore to remove the data @Scale has added to your Azure DevOps environment you need to follow the instruction in [Uninstalling @Scale](/docs/Administration/Uninstalling-Scale.md).
 
 # Subscription overview
 
