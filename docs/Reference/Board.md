@@ -54,12 +54,12 @@ Board settings controls general behaviors for the boards. The configuration is s
 
 | **Setting** | **Function** |
 |---|---|
+| Work items on the board | Select the work item types to show on the board |
 | Highlight dependencies | If enabled show dependencies in red, else gray |
 | Show completed items | If enabled also show items in status done on the board |
 | Show all teams in mapping filter | If enabled show all teams in the project in the mapping panel |
-| Show dependency on board | If enabled you can also show work items for dependencies. Select the work item type that represents the dependency |
 
-![image.png](/docs/.attachments/image-39100247-354e-418b-a9d3-e3f70f5f3ebd.png)
+![image](https://user-images.githubusercontent.com/7904771/113558682-64308580-9600-11eb-8439-68955b4433ac.png)
 
 ## Card settings
 
