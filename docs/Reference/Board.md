@@ -16,7 +16,7 @@ To help manage large ARTs, or when you want to focus on a specific team, you can
 
 The mapping pane gives you a tool that connects @Scale with your backlog. Drag items from the list (1) to the sprint you plan to complete the item and @Scale will update the card with the target iteration and the default area for the team. 
 
-![image.png](/docs/.attachments/image-e80eaafb-a2de-48c6-87eb-a541146aeb96.png)
+![image](https://user-images.githubusercontent.com/7904771/122994532-de270e00-d3a8-11eb-84fd-1122e8c2d51f.png)
 
 Use the filter (2) to narrow down the items in the list, by default we filter on the active program increment.
 
@@ -26,6 +26,7 @@ Use the filter (2) to narrow down the items in the list, by default we filter on
 | Increment | Filter on program increment iteration paths or the root iteration level |
 | Team | Filter on the areas the selected teams own |
 | State | Filter on state |
+| Tag | Filter on tag |
 
 ## Create a dependency
 
