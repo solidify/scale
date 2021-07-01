@@ -6,6 +6,8 @@ This report shows how the ART delivers on the objectives compared to what was pl
 # Program Predictability
 The Program Predictability report works in the same way as the Solution Train Predictability report but instead of ARTs the performance of each Team in the selected ART is shown.
 
+![image](https://user-images.githubusercontent.com/7904771/124176582-5aa7a400-daaf-11eb-8e05-058e93e08b1a.png)
+
 # Analytics view controls
 
 | **Control** | **Function** |
