@@ -6,7 +6,9 @@ Next the planned and actual business values are shown and also rolled up to a to
 
 Linking and unlinking board items is done from the action commands on each row (7). Linking board items is not a required practice but can be used to give additional insights into the state of delivery and likeliness to reach on objective.  
 
-![image.png](/docs/.attachments/image-ad0a8fa6-e85d-4e71-9b05-db6d5400237d.png)
+When loaded the ART and Team nodes are collapsed to give you a better overview. Click the expander link (8) to show the objectives and linked board items.
+
+![image](https://user-images.githubusercontent.com/7904771/124179437-27ffaa80-dab3-11eb-84e2-4e09de49816a.png)
 
 ## New objective
 
