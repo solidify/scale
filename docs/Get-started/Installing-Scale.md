@@ -12,7 +12,7 @@ Follow the steps below to get @Scale up and running in your project:
    1. Project and team (read and write). Read project and team info.
    1. Work items (read and write). Read and update work items, manage iterations.
 
-1. [Create a subscription](/docs/Administration/Subscription-management.md). Any user can create a subscription and will then become the owner of the it.
+1. [Create a subscription](/docs/Administration/Subscription-management.md). Any user can create a subscription and will then become the owner of it.
 1. [Assign licenses](/docs/Administration/Manage-licenses.md) to users of @Scale. 
 1. [Configure](/docs/Administration/Configuration-and-customization.md) your project. @Scale requires certain elements in your planning process in order to function. As part of the setup we will add missing configuration to your project, where needed.
 
