@@ -14,7 +14,7 @@ Follow the steps below to get @Scale up and running in your project:
 
 1. [Create a subscription](/docs/Administration/Subscription-management.md). Any user can create a subscription and will then become the owner of it.
 1. [Assign licenses](/docs/Administration/Manage-licenses.md) to users of @Scale. 
-1. [Configure](/docs/Administration/Configuration-and-customization.md) your project. @Scale requires certain elements in your planning process in order to function. As part of the setup we will add missing configuration to your project, where needed.
+1. [Configure](/docs/Administration/Configuration-and-customization.md) your project. @Scale requires certain elements in your planning process in order to function. As part of the setup we will add missing configuration to your project, where needed. **Note:** If you are using an on-premises Azure DevOps Server you need to contact us at scale@solidify.dev to get instructions how to configure the project manually.
 
 # Related articles
 * [Install Azure DevOps extensions](https://docs.microsoft.com/en-us/azure/devops/marketplace/install-extension)
