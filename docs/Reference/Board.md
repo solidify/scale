@@ -58,7 +58,6 @@ Board settings controls general behaviors for the boards. The configuration is s
 | Work items on the board | Select the work item types to show on the board |
 | Highlight dependencies | If enabled show dependencies in red, else gray |
 | Show completed items | If enabled also show items in status done on the board |
-| Show all teams in mapping filter | If enabled show all teams in the project in the mapping panel |
 
 ![image](https://user-images.githubusercontent.com/83336871/128831696-10350084-fecb-4938-aba9-d6b8f68c6f83.png)
 
