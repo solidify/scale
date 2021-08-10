@@ -60,7 +60,6 @@ Board settings controls general behaviors for the boards. The configuration is s
 | Show completed items | If enabled also show items in status done on the board |
 | Show all teams in mapping filter | If enabled show all teams in the project in the mapping panel |
 
-![image](https://user-images.githubusercontent.com/7904771/113558682-64308580-9600-11eb-8439-68955b4433ac.png)
 ![image](https://user-images.githubusercontent.com/83336871/128831696-10350084-fecb-4938-aba9-d6b8f68c6f83.png)
 
 
