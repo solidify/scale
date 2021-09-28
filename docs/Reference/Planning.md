@@ -29,7 +29,7 @@ Clicking the action menu (...) for an ART shows the available commands for the i
 ### Create a new PI and associate to an ART
 
 In the New Program Increment dialog you define a program increment for the ART. The PI is implemented as a work item that has the iteration path set to the created PI iteration tree. 
-
+#### Aligned iterations
 ![image.png](/docs/.attachments/image-044edb7b-cc35-4fcf-9a16-a3e1ae3a4038.png)
 
 First select the iteration you want the new PI to have as its root. Then give it a name and description, the start date for the increment, sprint length (working days) and number of sprints.
@@ -39,6 +39,11 @@ First select the iteration you want the new PI to have as its root. Then give it
 @Scale creates an iteration tree for you with the dates set based on the values in the ART creation dialog. You can later change dates or name of the iterations (like for Sprint 5 in the illustration), @Scale will show the values from the Azure DevOps definition.
 
 ![image.png](/docs/.attachments/image-d7bc3027-cfe4-4de7-8e08-ebd0b5fb2956.png)
+
+#### Team iterations
+![image](https://user-images.githubusercontent.com/83336871/135082117-f108ebfb-9527-4a81-81ae-8e7ca8d7311c.png)
+
+When using the team iteration layout you select a start and finish date. Scale will then load all the iterations within those dates and load them into the program board for the ART. 
 
 ### Associate an existing PI to an ART
 
