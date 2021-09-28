@@ -8,7 +8,8 @@ The Planning view shows all ARTs and PIs. The PIs assigned to an ART (2) is list
 
 To setup a new ART you use the New ART button (3). In the Create ART dialog you name the ART, assign the teams belonging to the ART and you can also associate the teams this ART depends on. The ART is stored as a work item in Azure DevOps which can be used to query for SAFe related information outside of @Scale.
 
-![image.png](/docs/.attachments/image-72aad0b9-894e-4575-92e3-47c64c217902.png)
+![image](https://user-images.githubusercontent.com/83336871/135080348-62ce293d-9665-4261-8b0a-7aba310b0907.png)
+
 
 ## ART commands
 
