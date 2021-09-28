@@ -43,7 +43,7 @@ First select the iteration you want the new PI to have as its root. Then give it
 #### Team iterations
 ![image](https://user-images.githubusercontent.com/83336871/135082117-f108ebfb-9527-4a81-81ae-8e7ca8d7311c.png)
 
-When using the team iteration layout you select a start and finish date. Scale will then load all the iterations within those dates and load them into the program board for the ART. 
+When using the team iteration layout you select a start and finish date. Scale will then load all the iterations from each team within those dates and load them into the program board for the ART. 
 
 ### Associate an existing PI to an ART
 
