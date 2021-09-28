@@ -10,6 +10,7 @@ To setup a new ART you use the New ART button (3). In the Create ART dialog you 
 
 ![image](https://user-images.githubusercontent.com/83336871/135080348-62ce293d-9665-4261-8b0a-7aba310b0907.png)
 
+**Note** If you're using the team iteration layout for cross-project ARTs then every team needs to setup team iterations in the same cadence. Scale will only add sprints if using the aligned iterations and if the teams are in the same project.
 
 ## ART commands
 
