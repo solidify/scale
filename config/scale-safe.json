@@ -25,7 +25,7 @@
           },
           {
             "id": "art-iteration-layout-mode",
-            "name": "Custom.Scale_ART_IterationLayoutMode",
+            "name": "Scale_ART_IterationLayoutMode",
             "description": "Layout mode to render sprints on the board (Aligned or Team).",
             "type": "String"
           }          
