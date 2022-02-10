@@ -64,7 +64,7 @@ Board settings controls general behaviors for the boards. The configuration is s
 
 ## Load & capacity indicators
 
-Load & capacity enables the possibility to get the load in each sprint for each team by calculating the total work to be done during that sprint.
+Load & capacity enables the possibility visualize load & set capacity for each team sprint.
 
 Capacity is changed by clicking on capacity in each sprint, filling in the number and hitting enter.
 
@@ -72,7 +72,7 @@ Load will also give users a notification if the sprints are loaded with too much
 
 * Green = Load is lower then the capacity
 * Yellow = Load is filled to the max
-* Red = Workload is too high for this sprint
+* Red = Load is too high for this sprint
 
 <kbd><img src="https://user-images.githubusercontent.com/83336871/153348262-64c2f00c-7343-4331-ac56-30cc050991d7.png" width="800"></kbd>
 
