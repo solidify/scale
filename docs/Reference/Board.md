@@ -70,6 +70,7 @@ Load will also give users a notification if the sprints are loaded with too much
 Green = Room for more
 Yellow = Filled to the max
 Red = Workload is too high
+
 <kbd><img src="https://user-images.githubusercontent.com/83336871/153348262-64c2f00c-7343-4331-ac56-30cc050991d7.png" width="800"></kbd>
 
 ### Feature size (Sum of children)
