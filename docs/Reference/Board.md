@@ -62,6 +62,17 @@ Board settings controls general behaviors for the boards. The configuration is s
 
 <kbd><img src="https://user-images.githubusercontent.com/83336871/153345237-8805484e-f6d2-4b46-8cfb-ae8b478a1e44.png" width="800"></kbd>
 
+## Load & capacity indicators
+
+Load & capacity enables the possibility to get the load in each sprint for each team by calculating the total 
+
+### Feature size (Sum of children)
+Features show the total size from all planned & estimated child work items, but however. does not get calculated in the sprint.
+<kbd>![image](https://user-images.githubusercontent.com/83336871/135067729-6fc5bff3-5869-46d1-baee-3043436054af.png)</kbd>
+
+### Load on child items
+PBIs/User stories (Children of features) show their respective load based of story points or effort & gets added to the total of the sprint
+<kbd>![image](https://user-images.githubusercontent.com/83336871/135067213-6968266f-415c-463a-b1db-ba033d6887cb.png)</kbd>
 
 ## Card settings
 
