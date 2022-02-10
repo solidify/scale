@@ -60,8 +60,7 @@ Board settings controls general behaviors for the boards. The configuration is s
 | Show completed items | If enabled also show items in status done on the board |
 
 ![image](https://user-images.githubusercontent.com/83336871/128831696-10350084-fecb-4938-aba9-d6b8f68c6f83.png)
-![image](https://user-images.githubusercontent.com/83336871/153345237-8805484e-f6d2-4b46-8cfb-ae8b478a1e44.png)
-
+<kbd><img src="https://user-images.githubusercontent.com/83336871/153345237-8805484e-f6d2-4b46-8cfb-ae8b478a1e44.png" width="600"></kbd>
 
 
 ## Card settings
