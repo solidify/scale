@@ -56,8 +56,9 @@ Board settings controls general behaviors for the boards. The configuration is s
 | **Setting** | **Function** |
 |---|---|
 | Work items on the board | Select the work item types to show on the board |
-| Highlight dependencies | If enabled show dependencies in red, else gray |
 | Show completed items | If enabled also show items in status done on the board |
+| Show capacity & load indicators | If enabled also show load from work items & enables to add capacity in sprints |
+| Show child items on cards | If enabled show child work items on cards |
 
 <kbd><img src="https://user-images.githubusercontent.com/83336871/153345237-8805484e-f6d2-4b46-8cfb-ae8b478a1e44.png" width="800"></kbd>
 
