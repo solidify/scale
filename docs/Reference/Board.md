@@ -70,9 +70,9 @@ Capacity is changed by clicking on capacity in each sprint, filling in the numbe
 
 Load will also give users a notification if the sprints are loaded with too much work based on the capacity by changing colors
 
-* Green = Room for more
-* Yellow = Filled to the max
-* Red = Workload is too high
+* Green = Load is lower then the capacity
+* Yellow = Load is filled to the max
+* Red = Workload is too high for this sprint
 
 <kbd><img src="https://user-images.githubusercontent.com/83336871/153348262-64c2f00c-7343-4331-ac56-30cc050991d7.png" width="800"></kbd>
 
