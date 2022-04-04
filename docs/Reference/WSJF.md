@@ -14,7 +14,7 @@ In the board settings you can change what values to work with or asign custom nu
 
 
 ## 6x6 grid (effort/value) (Essentials of WSJF)
-We see this view as a "light" version of our WSJF-estimation and as a good starting point if you haven't worked with WSJF before.
+This is a good starting point if you haven't worked with WSJF before.
 What gives the most value with the least amount of effort?
 As you drag the cards they get their designated values into the fields of the work item and count the WSJF score.
 
@@ -30,7 +30,7 @@ As you drag the cards they get their designated values into the fields of the wo
 <kbd><img src="https://user-images.githubusercontent.com/83336871/158957101-3cdcffe7-ec6b-4b29-8c24-ed27eb9be1a9.png" width="900"></kbd>
 
 ## 1x6 grid (Risk reduction, Time criticality, Effort & Value)
-We added 1x6 grids to work with the values of WSJF.
+You can also work with 1x6 grids to work with each of the values of WSJF individually.
 As you place features on the board they get their assigned value added to the card.
 
 <kbd><img src="https://user-images.githubusercontent.com/83336871/158959011-e4c95028-bdda-49c2-95db-35f593ab290b.png" width="900"></kbd>
