@@ -3,6 +3,7 @@ When you first enter WSJF you should set up your custom fields to be worked at.
 If you're missing a specific field you can add it to the specific work item type.
 
 Then you can choose the fields in the setup:
+
 <kbd><img src="https://user-images.githubusercontent.com/83336871/158958171-3c756905-045a-4aad-83f5-0310da52201b.png" width="450"></kbd>
 
 Clicking on a specific field lets you choose what field you'd like to put the data in.
