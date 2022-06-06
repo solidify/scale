@@ -13,7 +13,12 @@ When Scale is loaded and has a valid subscription it checks if the user has a li
 
 # Manage licenses
 
-The subscription owner or an Azure DevOps administrator can manage users and assign roles.
+The subscription owner or an Azure DevOps administrator can manage users and assign roles. You manage the licenses from the @Scale admin application.
+
+Direct URL: https://dev.azure.com/<your-organization>/_settings/solidify.solidify-scale.subscription-admin
+
+1. Go to the Azure DevOps organization settings
+2. Click @Scale in the Extensions section (very bottom of the list)
 
 ## Add license
 
