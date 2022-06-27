@@ -19,7 +19,7 @@ The table below shows the relationship between the Scale role assignments and Az
 |---|---|---|---|
 | Create subscription| N/A | Stakeholder | Contributor |
 | Manage subscription| Subscription owner | Stakeholder | Organization admin |
-| Manage licenses| Subscription owner | Stakeholder | Organization admin |
+| Manage licenses| Subscription owner/Administrator role | Stakeholder | Organization admin |
 | Configure projects| Extension admin | Basic | Project admin with permission to customize the projects' process definition |
 | Create ART | Project admin | Basic | Contributor |
 | Create PI | Project admin | Basic | Project admin or user with permission to manage areas and iterations |
