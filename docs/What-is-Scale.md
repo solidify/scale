@@ -10,7 +10,7 @@ Working together at scale requires increased visibility into what others are doi
   * **Share increment overview**. With a digital program board anyone can look at the result from the increment planning.
   * **Visualize dependencies**. The program board shows dependencies between features and it's really easy to add new by dropping cards on each other to make a connection. 
 
-![image.png](/docs/.attachments/image-ffccf407-62bb-4c29-86f4-3011c8b70872.png)
+![image](https://user-images.githubusercontent.com/83336871/196702288-27ee289c-707a-40f2-b5cb-5d709b06a33c.png)
 
 # Objectives management
 Goal setting is key to keep focus on the most important things. In @Scale you can set goals at ART level or per team by using Objectives. Set the planned business value (BV) when planning the increment and follow up during the execution. You can also associate objectives with items on the program board to give additional insights into the development progress. Use Scale for
