@@ -28,7 +28,7 @@ Project-level risks are visualized in a ROAM board where the teams can manage ri
   * **Visualize and manage risks**. During the PI planning risks are easily shared by using the risk board. Later during the ROAM exercise the teams and business owners find ways to manage the risks before committing to the plan for the next increment. 
   * **Customize columns**. Create a board that suits your team. Use the ROAM acronym, custom states or risk levels - the risk board can be customized to your way of working.
 
-![image.png](/docs/.attachments/image-1e9da3ca-b5b7-40dd-8854-e888dc16e9e5.png)
+![image](https://user-images.githubusercontent.com/83336871/196700713-82574c50-ad0f-43de-b38a-0abd0afefd56.png)
 
 # Analytics
 Azure DevOps provides may analytics capabilities and with @Scale you get additional analytics reports specific to SAFe. Quick insights into project status is essential, @Scale shows metrics that matters in your SAFe planning, including
