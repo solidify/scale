@@ -19,6 +19,9 @@ Goal setting is key to keep focus on the most important things. In @Scale you ca
   * **Measure achievement and delivery**. Use business value to measure outcome and monitor progress using Feature completion by linking objectives to features.
 
 ![image.png](/docs/.attachments/image-14ecd067-c454-481e-a9ab-b2adeb0dbc8a.png)
+![image](https://user-images.githubusercontent.com/83336871/196700195-d3884701-f4f0-4b44-85f5-be31c31e19c2.png)
+
+![image.png](/docs/.attachments/image-14ecd067-c454-481e-a9ab-b2adeb0dbc8a.png)
 
 # Risk management
 Risk management is an important part of the planning work. During PI planning the teams states risks and impediments to the RTE. @Scale provides a board where the team efficiently manages risks, both during planning and later to track the risks during the increment. 
