@@ -36,7 +36,7 @@ Azure DevOps provides may analytics capabilities and with @Scale you get additio
   * **Program Predictability**. The chart show actual business value achieved compared to planned business value.
   * **Solution Train Predictability**. Sums the PI level performance metric as the average outcome for each release train.
 
-![image.png](/docs/.attachments/image-96379640-9321-4155-87b9-417c6164cd51.png)
+![image](https://user-images.githubusercontent.com/83336871/196702545-4255b607-bf56-4944-9ad7-127d4215d215.png)
 
 # Process alignment
 Alignment of agile teams is important when working at scale, but it can be time-consuming to maintain. @Scale extends Azure DevOps with process enhancements to make it easer to get started and keep going. In @Scale we've also added tooling for additional planning concepts and artifacts introduced by SAFe, such as release trains, program increments and objectives.
