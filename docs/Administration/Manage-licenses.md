@@ -21,7 +21,7 @@ Direct URL: https://dev.azure.com/<your-organization>/_settings/solidify.solidif
 2. Click @Scale in the Extensions section (very bottom of the list)
   
 ## Add License Administrator
-If you don't want a user to have the Azure DevOps administrator but still be able to control licenses you can add a user as a license administrator. This role does not grant access to @Scale but lets that user manage access to @Scale.
+If you don't want a user to have the Azure DevOps administrator role but still be able to control licenses you can add a user as a license administrator. This role does not grant access to @Scale but lets that user manage access to @Scale.
   
 To assign a license administrator. Click on the Administrator tab and assign and click on add users.
 ![image](https://user-images.githubusercontent.com/83336871/196709684-2304a785-ce14-48d3-9d5b-8fe6deef0bd4.png)
