@@ -7,9 +7,9 @@ The @Scale extension is a licensed product and not sold. The license format is a
 When Scale is loaded and has a valid subscription it checks if the user has a license. If the user does not have a license a screen is presented where the user can request a license. The request is then approved and a role assigned by the subscription owner or an Azure DevOps administrator.
 
 
-![image.png](/docs/.attachments/image-4499e73f-6cf9-4571-a8eb-afd8cc67fdba.png)
+![image](https://user-images.githubusercontent.com/83336871/196707947-33b8e504-d355-486e-b235-eb96c615dd70.png)
 
-![image.png](/docs/.attachments/image-f948f6c1-e41f-481e-830b-9bf3a8e95cd0.png)
+![image](https://user-images.githubusercontent.com/83336871/196708201-79b0a3bc-2af7-4a31-afc1-a2362d2be8a6.png)
 
 # Manage licenses
 
@@ -19,6 +19,13 @@ Direct URL: https://dev.azure.com/<your-organization>/_settings/solidify.solidif
 
 1. Go to the Azure DevOps organization settings
 2. Click @Scale in the Extensions section (very bottom of the list)
+  
+## Add License Administrator
+If you don't want a user to have the Azure DevOps administrator but still be able to control licenses you can add a user as a license administrator. This role does not grant access to @Scale but lets that user manage access to @Scale.
+  
+To assign a license administrator. Click on the Administrator tab and assign and click on add users.
+![image](https://user-images.githubusercontent.com/83336871/196709684-2304a785-ce14-48d3-9d5b-8fe6deef0bd4.png)
+
 
 ## Add license
 
