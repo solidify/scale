@@ -42,7 +42,7 @@ Azure DevOps provides may analytics capabilities and with @Scale you get additio
 Prioritizing the right things to focus on is just as important as planning execution.
 Weighted Shortest Job First (WSJF) is a prioritization model used to sequence jobs (eg., Features, Capabilities, and Epics) to produce maximum economic benefit. In SAFe, WSJF is estimated as the Cost of Delay (CoD) divided by job size.
 
-With @Scale user friendly WSJF function, You can now focus on the important things while facilitating relative estimations while @Scale automatically calculates the WSJF-score when dragging and dropping cards. 
+With @Scale user friendly WSJF function, You can now focus on the important things and facilitate estimation while @Scale automatically calculates the WSJF-score when dragging and dropping cards. 
 ![image](https://user-images.githubusercontent.com/83336871/196704815-3689bec2-8b5a-481e-bb15-400e98d73b78.png)
 
 # Process alignment
