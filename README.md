@@ -6,11 +6,14 @@ With the @Scale extension your Azure DevOps project will be enriched to include 
 
 ## Key features
 
-* Dependency management using a program board
-* Objectives management
-* Risk management
-* Analytics
-* SAFe process alignment
+* **Scaled Agile planning** for cross functional teams.
+* **Seamless integration** with Azure DevOps.
+* **Visualization of work** across Azure DevOps projects and teams.
+* **Prioritize the work** using visual tools for WSJF.
+* **Roadmap visualization** to show the delivery flow.
+* **Dependency management using a program board** that shows constraints and critical paths with a clear visualization of dependencies.
+* **Objectives and Risk management** to keep focus on the most important things.
+* **Key metrics** to show insights of what matters in your SAFe planning.
 
 # Get @Scale
 The @Scale extension is available for installation from the [Azure DevOps Marketplace](https://marketplace.visualstudio.com/items?itemName=solidify.solidify-scale).
