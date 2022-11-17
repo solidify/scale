@@ -40,9 +40,12 @@ In the enterprise agreement we offer additional services, including:
 
 # Paid subscription
 
-If you selected a paid plan you will be asked to provide a credit card to pay for the subscription.
+If you would like to pay for a subscription you can find the subscription details in Azure DevOps Organization/collection settings. Once you press on Subscriba you will get prompted to fill in a credit card to pay for the subscription.
 
-![image.png](/docs/.attachments/image-7aaab902-61f3-4a8a-bf40-792c7f153c9f.png)
+![image.png](https://user-images.githubusercontent.com/83336871/202514207-fe491871-b135-4fae-835c-ed74db9a1e05.png)
+
+![image.png](https://user-images.githubusercontent.com/83336871/202513290-1838c187-92d4-40f6-9a3b-55610f5ca629.png)
+
 
 # Trial
 
