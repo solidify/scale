@@ -16,13 +16,14 @@ We currently have the following plans:
 
 ## Team
 * 1-10 users
-* On-line subscription
+* Online subscription
 * Monthly payment
 * Community support
 
 ## Business
-* Same as trial +
 * 11-100 users
+* Online subscription
+* Monthly payment
 * Email support
 
 ## Enterprise
