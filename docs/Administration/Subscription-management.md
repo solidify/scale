@@ -5,9 +5,10 @@ When Scale is loaded it checks for a valid subscription. If no subscription is f
 
 ![image.png](/docs/.attachments/image-1b305915-0219-436d-864b-a8602fe3d716.png)
 
-Clicking on **Manage subscriptions** takes you to the admin view for the extension where the different subscription options are listed. Select a plan and choose to start a **free trial** or **subscribe** to purchase directly.
+When you enter @Scale for the first time you can create a trial subscription by two ways:
+* Heading into Azure DevOps > Boards > @Scale.  Select a plan and choose to start a **free trial**,
+* Heading into Azure DevOps Organization/collection settings and you'll find @Scale in the bottom of the list to the left.
 
-![image.png](/docs/.attachments/image-4f36db7b-7b32-4f4c-83a9-439697da45ab.png)
 ![image.png](https://user-images.githubusercontent.com/83336871/202509186-c08a7c10-c864-42ad-b445-364f9def6492.png)
 
 
