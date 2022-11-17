@@ -16,6 +16,10 @@ Working together at scale requires increased visibility into what others are doi
 
 Sometimes you might want to visualize the time spent work items instead of being tied to iterations. @Scale can easily be toggled to enable start & target date on work items. Now you're able to see when a feature starts and when it's planned to end. 
 
+  * **Share your roadmap**. Scale enables you to visualize an increment or even a longer period of work.
+  * **Drag and drop**. Use our user interface to drag and drop to set the start & target date for work items.
+  * **Visualize time**. Visualize how long something will take instead of just showing the expected delivery iteration.
+
 ![image](https://user-images.githubusercontent.com/83336871/202505772-99ad7b93-bc49-4041-8959-f39cbe8ee8cd.png)
 
 
