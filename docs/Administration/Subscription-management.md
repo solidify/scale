@@ -48,7 +48,8 @@ If you would like to pay for a subscription you can find the subscription detail
 
 You should be able to try @Scale before you buy, therefore we offer a 30-day free trial per Azure DevOps organization. 
 
-![image.png](/docs/.attachments/image-64119459-34c1-451a-a153-3ccce651a163.png)
+<img width="649" alt="image" src="https://user-images.githubusercontent.com/83336871/202516361-5638aa20-8b91-4f9e-8232-f7bfd5a9b042.png">
+
 
 ## How can I change from trial to a paid plan?
 
