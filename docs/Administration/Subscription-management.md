@@ -8,6 +8,8 @@ When Scale is loaded it checks for a valid subscription. If no subscription is f
 Clicking on **Manage subscriptions** takes you to the admin view for the extension where the different subscription options are listed. Select a plan and choose to start a **free trial** or **subscribe** to purchase directly.
 
 ![image.png](/docs/.attachments/image-4f36db7b-7b32-4f4c-83a9-439697da45ab.png)
+![image.png](https://user-images.githubusercontent.com/83336871/202509186-c08a7c10-c864-42ad-b445-364f9def6492.png)
+
 
 We currently have the following plans:
 
