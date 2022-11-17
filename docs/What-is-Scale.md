@@ -12,6 +12,13 @@ Working together at scale requires increased visibility into what others are doi
 
 ![image](https://user-images.githubusercontent.com/83336871/196702288-27ee289c-707a-40f2-b5cb-5d709b06a33c.png)
 
+# Delivery timeline/Roadmaps
+
+Sometimes you might want to visualize the time spent work items instead of being tied to iterations. @Scale can easily be toggled to enable start & target date on work items. Now you're able to see when a feature starts and when it's planned to end. 
+
+![image](https://user-images.githubusercontent.com/83336871/202505772-99ad7b93-bc49-4041-8959-f39cbe8ee8cd.png)
+
+
 # Objectives management
 Goal setting is key to keep focus on the most important things. In @Scale you can set goals at ART level or per team by using Objectives. Set the planned business value (BV) when planning the increment and follow up during the execution. You can also associate objectives with items on the program board to give additional insights into the development progress. Use Scale for
 
