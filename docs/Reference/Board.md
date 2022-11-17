@@ -12,6 +12,27 @@ To help manage large ARTs, or when you want to focus on a specific team, you can
 
 ![image.png](/docs/.attachments/image-dc891003-1929-4005-86fb-d6c796bd8c22.png)
 
+## Timeline Delivery/Roadmap
+With our new timeline management function, you're able to drag cards over several sprints. With this function, you can visualize epics & features that span over a longer period then one sprint. Your cards then use the custom fields Start & Finish date that are already integrated on features in Azure DevOps.
+
+![image](https://user-images.githubusercontent.com/83336871/202521117-5c7fba34-9917-4d82-a6c6-9fee0448c9be.png)
+
+### Enabling Timeline Delivery
+To enable the new function in your board:
+Click on board settings -> Working with cards > Select start & finish date
+
+1. Working with cards - Click here to configure how you want the cards to work on the board
+2. Start & Finish date - Select this if you want to enable Start & finish date visualization on your board. 
+3. Start date - Customize which field you want to work with for the start date - From load, our function uses Azure DevOps standard field
+4. Finish date - Customize which field you want to work with for the finish date - From load, our function uses Azure DevOps standard field
+
+<kbd><img src="https://user-images.githubusercontent.com/83336871/167651994-19545c50-563f-44e2-aa39-c2b1ea2cf6a5.png" width="900"></kbd>
+
+### Working with Timeline Management on the board
+To set a start or finish date, simply drag the left or right side of the cards as illustrated in the gif below:
+
+<kbd><img src="https://github.com/solidify/scale/blob/master/static/Timeline-illu1.gif" width="900"></kbd>
+
 ## Mapping items to board
 
 The mapping pane gives you a tool that connects @Scale with your backlog. Drag items from the list (1) to the sprint you plan to complete the item and @Scale will update the card with the target iteration and the default area for the team. 
