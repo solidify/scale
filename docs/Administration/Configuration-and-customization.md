@@ -32,7 +32,8 @@ If you'd like some guidance for more customization on the process template, feel
 
 Chaning the @Scale process through our user interface:
 
-Scenario
+Example:
+
 If you already have an Objective work item type in your Azure DevOps process template and would like to use that one instead of creating a new one with Scale.
 You can now edit in the config through the UI to use this work item type instead of being forced to use our custom work item type. 
 <kbd><img src="https://user-images.githubusercontent.com/83336871/192761723-c0fd1ccf-2489-4702-b068-92f41f6d32b8.png" width="900"></kbd>
