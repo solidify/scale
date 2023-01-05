@@ -10,6 +10,7 @@ The application roles in @Scale are defined in the table below.
 |Extension admin | Responsible for configuring the Azure DevOps project for the extension. |
 |Project admin | Responsible for managing Scale settings. |
 |Contributor | General user of the extension. |
+|Reader| Read-only access to Scale |
 
 # Permission matrix
 
