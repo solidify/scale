@@ -20,7 +20,9 @@ The @Scale extension is available for installation from the [Azure DevOps Market
 
 # Documentation
 
-Check out the documenation for user and administration guidance.
+If you prefer to watch instead of read then check out our YouTube playlist [Using @Scale - SAFe Azure DevOps Extension](https://www.youtube.com/playlist?list=PLV19oTnfjtJCiS90OINBmhinNjp5_XoVV).
+
+Check out the documentation for user and administration guidance.
 
 * [What is @Scale?](docs/What-is-Scale.md)
 * [Installing @Scale](docs/Get-started/Installing-Scale.md)
