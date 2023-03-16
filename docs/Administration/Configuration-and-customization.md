@@ -30,7 +30,7 @@ Press Save to trigger the configuration of @Scale. After a few seconds the Plann
 # Customization
 If you'd like some guidance for more customization on the process template, feel free to reach out to us at support.scale@solidify.dev
 
-Chaning the @Scale process through our user interface:
+Changing the @Scale process through our user interface:
 
 Example:
 
