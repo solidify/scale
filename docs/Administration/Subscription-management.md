@@ -47,7 +47,7 @@ Currently we support the following payment methods:
 
 ## Paid subscription using Azure Subscription
 
-You can easily pay for @Scale using an Azure subscription. Many time there is already a process for paying for 3rd-party Azure DevOps extensions already in your organization and then the cost for @Scale can be managed the same way.
+You can easily pay for @Scale using an Azure subscription. Often there is already a process for paying for 3rd-party Azure DevOps extensions in your organization and then the cost for @Scale can be managed the same way.
 
 For more information see [Azure Marketplace purchasing](https://learn.microsoft.com/en-us/marketplace/azure-purchasing-invoicing).
 
