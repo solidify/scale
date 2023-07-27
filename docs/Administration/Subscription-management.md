@@ -11,7 +11,6 @@ When you enter @Scale for the first time you can create a trial subscription by 
 
 ![image.png](https://user-images.githubusercontent.com/83336871/202509186-c08a7c10-c864-42ad-b445-364f9def6492.png)
 
-
 We currently have the following plans:
 
 ## Team
@@ -40,9 +39,50 @@ In the enterprise agreement we offer additional services, including:
 
 # Paid subscription
 
-If you would like to pay for a subscription you can find the subscription details in Azure DevOps Organization/collection settings. Once you press on **Subscribe** you will get prompted to fill in a credit card to pay for the subscription.
+Currently we support the following payment methods:
+
+* [Azure subscription](#paid-subscription-using-azure-subscription)
+* [Credit card](#paid-subscription-using-credit-card)
+* [Invoice](#paid-subscription-using-invoice)
+
+## Paid subscription using Azure Subscription
+
+You can easily pay for @Scale using an Azure subscription. Many time there is already a process for paying for 3rd-party Azure DevOps extensions already in your organization and then the cost for @Scale can be managed the same way.
+
+For more information see [Azure Marketplace purchasing](https://learn.microsoft.com/en-us/marketplace/azure-purchasing-invoicing).
+
+Here's the process to purchase @Scale from the Azure Marketplace:
+
+1. Prepare an Azure subscription to use for purchasing @scale.
+2. Go to [@Scale at Microsoft Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/solidify.scale-planning).
+3. Click on "Get it now" and sign in to Azure using an account connected to the Azure subscription you plan to use.
+4. Select the plan you want from the list (you may also have been shared a private offering if you have discussed an Enterprise agreement with us) and click Subscribe.
+
+  <img width="452" alt="image" src="https://github.com/solidify/scale/assets/7904771/c575b793-f759-4ed4-abba-e54d7a11bb19">
+  
+5. Fill out the subscription details, review and start the subscription.
+
+  <img width="614" alt="image" src="https://github.com/solidify/scale/assets/7904771/9bc0c4f6-9ace-4b65-8eb6-4ece25788ebb">
+
+6. After the configuration has completed, Solidify will confirm the subscription. Reach out to your point of contact or email us at [scale@solidify.dev](mailto://scale@solidify.dev) so we can connect your @Scale subscription with your Azure subscription.
+
+  <img width="588" alt="image" src="https://github.com/solidify/scale/assets/7904771/24ea5b82-035f-4191-8742-bfb57ca942a4">
+
+7. At any time you can manage your Azure Marketplace Scale subscription from the Azure SaaS resource.
+
+  <img width="1253" alt="image" src="https://github.com/solidify/scale/assets/7904771/0658c965-b8b0-4cd4-bfe9-8feefed6a1aa">
+
+For reference, here's the [Azure Marketplace FAQ](https://learn.microsoft.com/en-us/partner-center/marketplace/marketplace-faq-publisher-guide) if you need more information about how to aquire and purchase products from the marketplace.
+
+## Paid subscription using Credit card
+
+If you would like to pay for a subscription using credit card you can find the subscription details in Azure DevOps Organization/collection settings. Once you press on **Subscribe** you will get prompted to fill in a credit card to pay for the subscription.
 
 <kbd><img src="https://user-images.githubusercontent.com/83336871/202513290-1838c187-92d4-40f6-9a3b-55610f5ca629.png" width="550"></kbd>
+
+## Paid subscription using invoice
+
+If you want to purchase @Scale and pay by invoice then contact us at [scale@solidify.dev](mailto://scale@solidify.dev).
 
 # Trial
 
