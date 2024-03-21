@@ -1,3 +1,6 @@
+This guide goes through the general usage of @Scale Flow metrics, if you'd like to get more informaion about each graph, click one of the following articles:
+
+
 # New Analytics & Flow Metrics
 We have introduced a new feature that allows users to toggle analytics visibility in the preview mode. 
 <img width="900" alt="image" src="https://github.com/solidify/scale/assets/83336871/f887ba3d-9cb3-4ce1-b30f-e030a8189515">
@@ -56,7 +59,7 @@ While the intricate details of data queries and processing are managed by @Scale
 - Learn about the necessary [permissions and prerequisites for accessing Analytics in Azure DevOps](https://learn.microsoft.com/en-us/azure/devops/report/analytics/analytics-permissions-prerequisites?view=azure-devops).
 
 
-**Original Metrics**
+# Original Metrics
 
 # Solution Train Predictability 
 This report shows how the ART delivers on the objectives compared to what was planned. Only committed objectives are included in the diagram. The diagram shows the percentage of actual business value compared to estimated business value for each ART and program increment. The average for all ARTs is also shown as a metric for the predictability of the group.
