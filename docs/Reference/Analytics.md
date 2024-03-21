@@ -1,5 +1,13 @@
 This guide goes through the general usage of @Scale Flow metrics, if you'd like to get more informaion about each graph, click one of the following articles:
 
+| **Topic** |
+|---|
+| [Flow Distribution](Flowdistrubition.md) | 
+| [Flow Load](Flowload.md) | 
+| [Flow Predictability](Flowpredictability.md) | 
+| [Flow Velocity](Flowvelocity.md) | 
+| [Flow Time](Flowtime.md) | 
+
 
 # New Analytics & Flow Metrics
 We have introduced a new feature that allows users to toggle analytics visibility in the preview mode. 
