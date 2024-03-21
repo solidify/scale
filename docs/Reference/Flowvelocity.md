@@ -16,11 +16,9 @@ To get the data for Flow Velocity we query the entity type "WorkItems" in the Ad
 
 One query is made per avaialble project ID in the list of distinct projects in the selected ART. 
 
-The query returns a list of objects with the following structure. 
-
 ### Mapping the data to the view
 
-Only sprints with dates that are before todays date are displayed in the graph. 
+Only iterations with dates that are before todays date are displayed in the graph. 
 
 The data is mapped into a structure where per pi, all effort/storypoint values are summarized per iteration  
 
