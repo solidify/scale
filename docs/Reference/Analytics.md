@@ -10,8 +10,10 @@ This guide goes through the general usage of @Scale Flow metrics, if you'd like 
 
 
 # Flow Metrics
-
 @Scale Flow Metrics introduces the six SAFe flow metrics, enabling you to work with measuring and analyzing flow:
+
+<img width="900" alt="image" src="https://github.com/solidify/scale/assets/83336871/f887ba3d-9cb3-4ce1-b30f-e030a8189515">
+
 
 | **Metric** | **Description** |
 |---|---|
