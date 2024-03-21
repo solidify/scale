@@ -29,4 +29,4 @@ To get the data for Flow Predictability @Scale the entity type Work item Type PI
 
 For each PI/team group: 
         
-        Flow Predictability percentage = SUM of all PI Objective group (Actual Business Value/ SUM of all Commited PI Objective Group (planned values)
+Flow Predictability = SUM of all PI Objective group (Actual Business Value / SUM of all Commited PI Objective Group (Planned Business Values)
