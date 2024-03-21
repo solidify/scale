@@ -1,4 +1,4 @@
-This guide goes through the general usage of @Scale Flow metrics, if you'd like to get more informaion about each graph, click one of the following articles:
+This article goes through the general usage of @Scale Flow metrics, if you'd like to get more informaion about each graph, click one of the following articles:
 
 | **Topic** |
 |---|
