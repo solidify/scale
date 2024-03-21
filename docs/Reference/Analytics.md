@@ -2,7 +2,7 @@ This guide goes through the general usage of @Scale Flow metrics, if you'd like 
 
 | **Topic** |
 |---|
-| [Flow Distribution](Flowdistrubition.md) | 
+| [Flow Distribution](Flowdistribution.md) | 
 | [Flow Load](Flowload.md) | 
 | [Flow Predictability](Flowpredictability.md) | 
 | [Flow Velocity](Flowvelocity.md) | 
