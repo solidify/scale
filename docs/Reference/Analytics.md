@@ -1,20 +1,3 @@
-The Analytics hub gives you insights into how your teams perform. The reports in @Scale complements the built-in reports for metrics like the cumulative flow diagram.
-
-# Solution Train Predictability 
-This report shows how the ART delivers on the objectives compared to what was planned. Only committed objectives are included in the diagram. The diagram shows the percentage of actual business value compared to estimated business value for each ART and program increment. The average for all ARTs is also shown as a metric for the predictability of the group.
-
-# Program Predictability
-The Program Predictability report works in the same way as the Solution Train Predictability report but instead of ARTs the performance of each Team in the selected ART is shown.
-
-![image](https://user-images.githubusercontent.com/7904771/124176582-5aa7a400-daaf-11eb-8e05-058e93e08b1a.png)
-
-# Analytics view controls
-
-| **Control** | **Function** |
-|---|---|
-| ![image.png](/docs/.attachments/image-4e95335d-c334-4344-a917-3250b39f98fb.png) | Select active program increment |
-| ![image.png](/docs/.attachments/image-9e9e362c-248f-49d9-a2b2-03962629a97c.png) | Enter or exit full screen mode |
-
 # New Analytics & Flow Metrics
 We have introduced a new feature that allows users to toggle analytics visibility in the preview mode. 
 <img width="900" alt="image" src="https://github.com/solidify/scale/assets/83336871/f887ba3d-9cb3-4ce1-b30f-e030a8189515">
@@ -29,7 +12,7 @@ We have introduced a new feature that allows users to toggle analytics visibilit
 |Flow Velocity|The Flow Velocity graph visually represents the volume of work in story points or effort accomplished within a specific timeframe. It serves as a valuable tool for detecting and addressing slowdowns in your workflow.|
 |Flow Time|The Flow Time Histogram graph displays the number of work items and their respective completion times. It's a vital tool for understanding time efficiencies and potential areas for process improvement.|
 |Flow Load|The Flow Load graph shows the number of work items in each state. This graph is useful for identifying bottlenecks in your workflow.|
-|Flow Efficiency (Coming soon)|Flow Efficiency is the percentage of time that work is actively being worked on. It is calculated by dividing the total active time by the total lead time.|
+|Flow Efficiency|Flow Efficiency is the percentage of time that work is actively being worked on. It is calculated by dividing the total active time by the total lead time.|
 |Flow Predictability|Flow Predictability calculates the ratio of planned business value achieved to actual business value on PI objectives delivered in a PI.|
 
 To access the new analytics view, go to analytics settings and turn on the preview toggle.
@@ -48,12 +31,44 @@ You can choose to look at one metric in isolation by toggling it into full-scree
 
 <img width="806" alt="image" src="https://github.com/solidify/scale/assets/83336871/f88a8337-b12c-47e8-8e30-6cdb5f73b05e">
 
-We utilize Azure DevOps Analytics to get the data for the different metrics. To view analytics data and query the service, the user needs to be a member of a project with Basic access or greater. In order to visualize the data for cross-project ARTs, the user has to be granted access to all projects included.
+To dive into these insights, navigate to the analytics settings and enable the preview toggle.
 
-# References
-* [SAFe metrics](https://www.scaledagileframework.com/metrics)
-* [Permissions and prerequisites to access Analytics in Azure DevOps](https://learn.microsoft.com/en-us/azure/devops/report/analytics/analytics-permissions-prerequisites?view=azure-devops)
+## Access and Permissions
+
+**Data Access:**
+Our analytics are powered by Azure DevOps Analytics, ensuring up-to-date and accurate information. For access, users must have Basic access or higher within their Azure DevOps projects.
+
+**Cross-Project ARTs:**
+For insights spanning multiple projects, ensure you have the necessary access across all involved projects to visualize the complete data set.
+
+## Understanding the Data Behind Your Analytics
+
+While the intricate details of data queries and processing are managed by @Scale, it’s essential to understand the basics of how your analytics are generated:
+
+- **Data Sources:** We extract data from multiple project IDs associated with your selected ART, using Azure DevOps Analytics services.
+- **Data Selection:** Our system intelligently filters data based on date ranges, team IDs, and work item types that you specify in the analytics interface.
+- **Data Presentation:** Aggregated and processed data is translated into user-friendly graphs and charts, offering actionable insights at a glance.
+- **User Interactions:** Filters and selections you make dynamically alter the displayed data without the need for new queries, ensuring a responsive and fluid experience.
+
+## References
+
+- Deepen your understanding of SAFe metrics through the [Scaled Agile Framework's official metrics guide](https://www.scaledagileframework.com/metrics).
+- Learn about the necessary [permissions and prerequisites for accessing Analytics in Azure DevOps](https://learn.microsoft.com/en-us/azure/devops/report/analytics/analytics-permissions-prerequisites?view=azure-devops).
 
 
-# References
-* [SAFe metrics](https://www.scaledagileframework.com/metrics)
+**Original Metrics**
+
+# Solution Train Predictability 
+This report shows how the ART delivers on the objectives compared to what was planned. Only committed objectives are included in the diagram. The diagram shows the percentage of actual business value compared to estimated business value for each ART and program increment. The average for all ARTs is also shown as a metric for the predictability of the group.
+
+# Program Predictability
+The Program Predictability report works in the same way as the Solution Train Predictability report but instead of ARTs the performance of each Team in the selected ART is shown.
+
+![image](https://user-images.githubusercontent.com/7904771/124176582-5aa7a400-daaf-11eb-8e05-058e93e08b1a.png)
+
+# Analytics view controls
+
+| **Control** | **Function** |
+|---|---|
+| ![image.png](/docs/.attachments/image-4e95335d-c334-4344-a917-3250b39f98fb.png) | Select active program increment |
+| ![image.png](/docs/.attachments/image-9e9e362c-248f-49d9-a2b2-03962629a97c.png) | Enter or exit full screen mode |
