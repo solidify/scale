@@ -1,5 +1,5 @@
 # Flow distribution 
-<img width="900" alt="image" src="https://github.com/solidify/scale/assets/83336871/59701924-7cf2-4bb8-901b-6b801b28ef03">
+<img width="900" alt="image" src="https://github.com/solidify/scale/assets/83336871/d7c3a2d3-1722-4e0b-8788-8e91c64211d4">
 
 The Flow Distribution function provides a clear picture of how work items are dispersed across various workflow stages. It assists in uncovering potential bottlenecks, a critical aspect of effective planning. Utilizing this tool can help enhance overall productivity and process efficiency.
 
