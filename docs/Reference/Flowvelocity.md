@@ -18,32 +18,6 @@ One query is made per avaialble project ID in the list of distinct projects in t
 
 The query returns a list of objects with the following structure. 
 
-```
-{
-    "WorkItemId": 34549,
-    "Title": "allo",
-    "WorkItemType": "Feature",
-    "State": "Closed",
-    "Effort": null,
-    "StoryPoints": null,
-    "Iteration": {
-        "IterationPath": "Champions league\\PI 1"
-    },
-    "Area": {
-        "AreaPath": "Champions league\\Test 1"
-    },
-    "Project": {
-        "ProjectName": "Champions league"
-    },
-    "Teams": [
-        {
-            "TeamId": "9650e20c-6086-4f74-ae9b-c4b5504d04d5",
-            "TeamName": "Test 1"
-        }
-    ]
-}
-```
-
 ### Mapping the data to the view
 
 Only sprints with dates that are before todays date are displayed in the graph. 
