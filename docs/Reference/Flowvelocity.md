@@ -6,7 +6,7 @@ The Flow Velocity graph visually represents the volume of work in story points o
 
 ### Getting the data 
 
-To get the data for Flow Velocity we query the entity type "WorkItems" in the Ado analytics service. We are looking for work items that: 
+To get the data for Flow Velocity we query the entity type "WorkItems" in the Ado analytics service. @Scale is looking for work items that: 
 
 - Has a work item type in the list of selected work item types in the filter in the @Scale analytics   
 - Has an area path that is subscribed to the team ids in the list of teams selected by the user   
