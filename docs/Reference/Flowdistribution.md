@@ -22,8 +22,6 @@ We query the following entries:
 - Has an iteration that starts with the selected ARTs PI iteration paths (or team iterations if applicable)
 - Has a work item type in the list of selected work item types in the filter in the @Scale analytics   
 
-The data is grouped on the keys below. 
-
 ### Mapping the data to the view
 
 All entries with the same dates are grouped together, adding the distinct groups to a property to allow the dataset to be filtered.
