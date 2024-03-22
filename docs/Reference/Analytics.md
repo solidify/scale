@@ -50,6 +50,8 @@ Our analytics are powered by Azure DevOps Analytics, ensuring up-to-date and acc
 **Cross-Project ARTs:**
 For insights spanning multiple projects, ensure you have the necessary access across all involved projects to visualize the complete data set.
 
+![image](https://github.com/solidify/scale/assets/83336871/ed66a1eb-6367-416f-b3a9-d6b5ba3ea833)
+
 ## Understanding the Data Behind Your Analytics
 
 While the intricate details of data queries and processing are managed by @Scale, it’s essential to understand the basics of how your analytics are generated:
@@ -58,9 +60,6 @@ While the intricate details of data queries and processing are managed by @Scale
 - **Data Selection:** Our system intelligently filters data based on date ranges, team IDs, and work item types that you specify in the analytics interface.
 - **Data Presentation:** Aggregated and processed data is translated into user-friendly graphs and charts, offering actionable insights at a glance.
 - **User Interactions:** Filters and selections you make dynamically alter the displayed data without the need for new queries, ensuring a responsive and fluid experience.
-
-![image](https://github.com/solidify/scale/assets/83336871/ed66a1eb-6367-416f-b3a9-d6b5ba3ea833)
-
 
 ## References
 
