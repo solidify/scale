@@ -54,10 +54,10 @@ For insights spanning multiple projects, ensure you have the necessary access ac
 
 ## Understanding the Data Behind Your Analytics
 
-While the intricate details of data queries and processing are managed by @Scale, it’s essential to understand the basics of how your analytics are generated:
+While the details of data queries and processing are managed by @Scale, it’s essential to understand the basics of how your analytics are generated:
 
 - **Data Sources:** We extract data from multiple project IDs associated with your selected ART, using Azure DevOps Analytics services.
-- **Data Selection:** Our system intelligently filters data based on date ranges, team IDs, and work item types that you specify in the analytics interface.
+- **Data Selection:** Our system filters data based on date ranges, team IDs, and work item types that you specify in the analytics interface.
 - **Data Presentation:** Aggregated and processed data is translated into user-friendly graphs and charts, offering actionable insights at a glance.
 - **User Interactions:** Filters and selections you make dynamically alter the displayed data without the need for new queries, ensuring a responsive and fluid experience.
 
