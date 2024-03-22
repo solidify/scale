@@ -59,6 +59,9 @@ While the intricate details of data queries and processing are managed by @Scale
 - **Data Presentation:** Aggregated and processed data is translated into user-friendly graphs and charts, offering actionable insights at a glance.
 - **User Interactions:** Filters and selections you make dynamically alter the displayed data without the need for new queries, ensuring a responsive and fluid experience.
 
+![image](https://github.com/solidify/scale/assets/83336871/ed66a1eb-6367-416f-b3a9-d6b5ba3ea833)
+
+
 ## References
 
 - Deepen your understanding of SAFe metrics through the [Scaled Agile Framework's official metrics guide](https://www.scaledagileframework.com/metrics).
