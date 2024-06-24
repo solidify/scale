@@ -75,8 +75,8 @@ Modify your current process template XML to include the "Dependency Request" wor
 
 ## Step 4: Verify the Work Item Type
 
-1. Go to the **Work** section of your Azure DevOps project.
-2. Create a new work item and select **Dependency Request**.
+1. Go to the **Dependnecy hub** in @Scale
+2. Create a new **Dependency Request** in the view.
 3. Ensure the states (Pending, Accepted, Declined) and transitions work as expected.
 
 That's it! You've successfully created a "Dependency Request" work item type in Azure DevOps using the XML process model and configured it in the Dependency Hub in @Scale.
