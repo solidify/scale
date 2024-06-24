@@ -36,7 +36,8 @@ The Dependency Hub in @Scale improves dependency management with a comprehensive
 
 ### Example Dashboard
 
-![Dependency Hub Dashboard](#)
+<img width="1200" alt="image" src="https://github.com/solidify/scale/assets/83336871/2c637243-af78-4920-b6b0-9765824dbe49">
+
 
 ## Getting Started
 
