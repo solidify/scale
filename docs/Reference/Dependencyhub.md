@@ -94,7 +94,9 @@ Now we wan't to create dependencies, So I head to the new dependency hub and cre
 
 <img width="1200" alt="image" src="https://github.com/solidify/scale/assets/83336871/5aa9d9fd-6851-470c-a733-988062d52a9a">
 
+
 Without them accepting or declining this, I've added to show "Dependency Requests" in the board settings and this is how it looks now:
+
 <img width="1200" alt="image" src="https://github.com/solidify/scale/assets/83336871/87c338bf-aed0-492a-9f17-755bec9f7008">
 
 This will notify the innovation team, and if they enter the Dependency view, they can accept or decline this request. In this case, the innovation team accepts it and creates a user story to solve this need:
