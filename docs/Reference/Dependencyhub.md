@@ -85,6 +85,7 @@ The Dependency request can have 3 different states
 ### Board Example & Recommendations
 
 Let's say that we are in the middle of planning, and we have just put out estimates for when our features will be delivered. This will look something like this in the board:
+
 ![image](https://github.com/solidify/scale/assets/83336871/21825e6b-f126-40df-be82-f1c16a9c1f21)
 
 Now we wan't to create dependencies, So I head to the new dependency hub and create a dependency request. My team needs new pipelines for a new features we are building. So I request them from the innovation team:
