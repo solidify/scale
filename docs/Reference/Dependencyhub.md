@@ -73,15 +73,6 @@ There are 3 different options when working with dependencies. We recommend choos
 
 Dependency Requests can be shown in the board, but here are some general recommendations of how you can mittigate a cluttered board!
 
-### Workflow of requests
-
-The Dependency request can have 3 different states
-1. **Pending** - This means that the dependency request has not been accepted or declined yet.
-2. **Accepted** - Once a Dependency request gets accepted, you need to link it to the real item that is solving this dependency request. This will close the request and link to the item solving this need.
-![dependency hub accept](https://github.com/solidify/scale/assets/83336871/05ef577c-9de3-4387-984f-8dae37c796c0)
-3. **Declined** - When a dependency request gets declined, you need to state a reason why this request is getting declined. This will put the dependency request in the state "Removed" and state the reason within the dependency hub list.
-<img width="701" alt="image" src="https://github.com/solidify/scale/assets/83336871/daecc934-8a6d-420c-9aab-dfe0258bd038">
-
 ### Workflow of Requests
 
 The Dependency Hub categorizes dependency requests into three states:
