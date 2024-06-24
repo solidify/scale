@@ -62,19 +62,6 @@ There are 3 different options when working with dependencies. We recommend choos
 3. **No configuration** - This will just show a list of your dependencies (Predecessor & successors), this limits the functionality and removes the request capabilties of @Scale
 
 
-## Board View Controls
-
-| **Control** | **Function** |
-|-------------|--------------|
-| ![PI Icon](#) | Select active program increment |
-| ![Refresh Icon](#) | Refresh content on page |
-| ![Settings Icon](#) | Access Board, Exclusions, Fields, Styles settings |
-| ![Filter Icon](#) | Apply filters |
-| ![Options Icon](#) | Access options menu |
-| ![Fullscreen Icon](#) | Enter or exit full screen mode |
-
-## Board Settings
-
 ### General Settings
 
 | **Setting** | **Function** |
