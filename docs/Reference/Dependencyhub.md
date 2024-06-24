@@ -61,51 +61,11 @@ There are 3 different options when working with dependencies. We recommend choos
 2. **Custom work item type** - If you already have a similar request item in your process, you can select your own item which will act as a dependency request in @scale.
 3. **No configuration** - This will just show a list of your dependencies (Predecessor & successors), this limits the functionality and removes the request capabilties of @Scale
 
-
-### General Settings
+### General Functions
 
 | **Setting** | **Function** |
 |-------------|--------------|
-| Work items on the board | Select types of work items to display |
-| Show completed items | Toggle visibility of completed items |
-| Show capacity & load indicators | Toggle visibility of load and capacity indicators |
-| Show child items on cards | Toggle visibility of child work items on cards |
 
-## Load & Capacity Indicators
+| Internal team dependencies | Toggle visibility of dependencies within the same team where both the predecessor & successor exist in the same team |
+| Filtering | Filter on any of the columns through the filter button|
 
-- Visualize team sprint load and set capacity.
-- Capacity adjustments are made by clicking on capacity and entering the number.
-- Load notifications indicate if the sprint's workload exceeds capacity:
-  - **Green**: Load is below capacity
-  - **Yellow**: Load is at capacity
-  - **Red**: Load exceeds capacity
-
-## Card Settings
-
-### Exclusions
-
-Exclude specific items from the board using custom rules.
-
-### Fields
-
-Configure essential and additional fields on the board cards:
-1. **Core fields**: Essential fields to display.
-2. **Additional fields**: Up to 10 custom fields.
-3. **Show empty fields**: Display fields without values.
-4. **Charms**: Indicators for child item rollups.
-
-### Styles
-
-Define rules to change card colors based on specific criteria.
-
-## Options
-
-Quickly access frequently used features through the options menu.
-
-| **Option** | **Function** |
-|------------|--------------|
-| Show compact cards | Toggle between full and compact card layout |
-| Show dependencies | Show or hide dependency lines between cards |
-| Side panel | Open side panel tool |
-
-For more detailed instructions and visual aids, please refer to the complete guide.
