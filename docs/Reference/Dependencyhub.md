@@ -89,7 +89,9 @@ Let's say that we are in the middle of planning, and we have just put out estima
 ![image](https://github.com/solidify/scale/assets/83336871/21825e6b-f126-40df-be82-f1c16a9c1f21)
 
 Now we wan't to create dependencies, So I head to the new dependency hub and create a dependency request. My team needs new pipelines for a new features we are building. So I request them from the innovation team:
+
 <img width="350" alt="image" src="https://github.com/solidify/scale/assets/83336871/f46799c3-ed85-4e64-9447-ebfa25b8b6fe">
+
 <img width="1200" alt="image" src="https://github.com/solidify/scale/assets/83336871/5aa9d9fd-6851-470c-a733-988062d52a9a">
 
 Without them accepting or declining this, I've added to show "Dependency Requests" in the board settings and this is how it looks now:
