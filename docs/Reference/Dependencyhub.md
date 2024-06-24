@@ -82,3 +82,32 @@ The Dependency request can have 3 different states
 3. **Declined** - When a dependency request gets declined, you need to state a reason why this request is getting declined. This will put the dependency request in the state "Removed" and state the reason within the dependency hub list.
 <img width="701" alt="image" src="https://github.com/solidify/scale/assets/83336871/daecc934-8a6d-420c-9aab-dfe0258bd038">
 
+### Board Example & Recommendations
+
+Let's say that we are in the middle of planning, and we have just put out estimates for when our features will be delivered. This will look something like this in the board:
+![image](https://github.com/solidify/scale/assets/83336871/21825e6b-f126-40df-be82-f1c16a9c1f21)
+
+Now we wan't to create dependencies, So I head to the new dependency hub and create a dependency request. My team needs new pipelines for a new features we are building. So I request them from the innovation team:
+<img width="350" alt="image" src="https://github.com/solidify/scale/assets/83336871/f46799c3-ed85-4e64-9447-ebfa25b8b6fe">
+<img width="1200" alt="image" src="https://github.com/solidify/scale/assets/83336871/5aa9d9fd-6851-470c-a733-988062d52a9a">
+
+Without them accepting or declining this, I've added to show "Dependency Requests" in the board settings and this is how it looks now:
+<img width="1200" alt="image" src="https://github.com/solidify/scale/assets/83336871/87c338bf-aed0-492a-9f17-755bec9f7008">
+
+This will notify the innovation team, and if they enter the Dependency view, they can accept or decline this request. In this case, the innovation team accepts it and creates a user story to solve this need:
+![Accepting dependency1](https://github.com/solidify/scale/assets/83336871/b1a644ae-22e8-48bd-87bd-5b5c84f180ca)
+
+This is how the board will look now when they have accepted and created an item that solves this need and planned for, as you can see, two items exist, the request and the item solving it, However, the request has changed state to "Accepted" which is in the state category of closed items:
+<img width="1200" alt="image" src="https://github.com/solidify/scale/assets/83336871/442436c1-544f-460e-8ec8-e3be5166c664">
+
+And to limit the board, I can set some rules, Let's say I don't want to see accepted dependencies, becasue they will always have a new linked item to them. I can then set the rule to exclude every dependency request that has the state "Accepted"
+<img width="600" alt="image" src="https://github.com/solidify/scale/assets/83336871/379af8ba-02b0-4052-8512-ee5a99636a33">
+
+This will make sure that only the unhandeled Dependency Requests & Dependencies are shown in the board when you plan together with your teams:
+<img width="1200" alt="image" src="https://github.com/solidify/scale/assets/83336871/7f5204ca-d7ac-41d6-85c8-1585869dc5af">
+
+
+
+
+
+
