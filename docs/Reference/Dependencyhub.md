@@ -24,6 +24,12 @@ The Dependency Hub in @Scale improves dependency management with a comprehensive
 1. Navigate to the Dependency Hub.
 2. Click on "New Dependency Request."
 3. Fill in the details and send the request.
+   **Title** - Title of the dependency request
+   **Requested by** - Which team is requesting this dependency?
+   **Depends on** - Which team is solving or delivering this dependency?
+   **Requested for** - For what is this dependency needed to? (Select an item in the requested by teams backlog)
+   **Need By** - In what iteration does this need to be delivered?
+   **Description** - Describe what this dependency request is about
    ![dependencyhub new dependency](https://github.com/solidify/scale/assets/83336871/187b1280-3978-4b51-ac5f-870d6d75f3bc)
 
 
