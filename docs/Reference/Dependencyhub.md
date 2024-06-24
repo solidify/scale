@@ -65,7 +65,6 @@ There are 3 different options when working with dependencies. We recommend choos
 
 | **Setting** | **Function** |
 |-------------|--------------|
-
 | Internal team dependencies | Toggle visibility of dependencies within the same team where both the predecessor & successor exist in the same team |
 | Filtering | Filter on any of the columns through the filter button|
 
