@@ -8,6 +8,8 @@ To create a "Dependency Request" work item type in Azure DevOps using the XML pr
 
 Create a new XML file for the "Dependency Request" work item type. Name it `DependencyRequest.xml`.
 
+Here is one example of a simple implementation, however, keep in mind that you might have organization specific fields and such that you need. Please go over this with you Azure DevOps administrator.
+
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <WORKITEMTYPE name="Dependency Request">
