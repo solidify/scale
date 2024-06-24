@@ -70,7 +70,7 @@ Modify your current process template XML to include the "Dependency Request" wor
 ## Step 3: Configure the Dependency Hub in @Scale
 
 1. Go to the new menu option **Dependencies**.
-2. Click on **Choose work item type**.
+2. Click on **Choose work item type** in the settings or config.
 3. Select the newly created **Dependency Request** item.
 
 ## Step 4: Verify the Work Item Type
