@@ -50,11 +50,16 @@ The Dependency Hub in @Scale improves dependency management with a comprehensive
 
 ## Getting Started
 
-### Enabling the Dependency Hub
+### Enabling & configuring the Dependency Hub
 1. Go to the new menu option "Depdendencies"
 2. Go through the guide
 3. Configure the workflow for dependencies
 <img width="600" alt="image" src="https://github.com/solidify/scale/assets/83336871/c8feeaef-8b7a-496e-9ce9-599a6da2c7c3">
+
+There are 3 different options when working with dependencies. We recommend choosing option 1 which is a predefined work item type that will get configured.
+1. **Predefined Work item type** - @Scale will configure a new work item type in your process called "Dependency Request" 
+2. **Custom work item type** - If you already have a similar request item in your process, you can select your own item which will act as a dependency request in @scale.
+3. **No configuration** - This will just show a list of your dependencies (Predecessor & successors), this limits the functionality and removes the request capabilties of @Scale
 
 
 ## Board View Controls
