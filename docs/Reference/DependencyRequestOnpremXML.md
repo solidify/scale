@@ -1,4 +1,5 @@
 # DRAFT - DO NOT USE
+@Scale does not support XML-process for the dependency request at this moment, we will update this guide in the future
 
 # Creating "Dependency Request" Work Item Type in Azure DevOps (XML Process Model)
 
