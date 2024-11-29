@@ -8,7 +8,7 @@ The **Flow Time Histogram** graph shows how long it takes to complete work items
 
 ## What Does It Show?
 
-- **X-Axis (Flow Time):** The time (in days) it took to complete work items.
+- **X-Axis (Flow Time):** The time (in days) it took to complete work items. **New -> Closed**
 - **Y-Axis (Count):** The number of work items completed within the respective flow time.
 - **Bars:** Each bar represents a group of work items with the same flow time (in days).
 
@@ -20,13 +20,14 @@ Hovering over a bar displays:
 ---
 
 ### Example
+<img width="112" alt="image" src="https://github.com/user-attachments/assets/1166c2e6-7b47-4008-9ea7-ea5320863bd5">
 
 If the tooltip shows for **29 days**:
 - **Total:** 3 work items
-  - **Team Green:** 1 items
-  - **Team Red:** 2 items  
+  - **Team Green:** 2 items
+  - **Team Red:** 1 items  
 
-This means 3 work items took 29 days to complete, with 1 completed by Team Green and 2 by Team Red.
+This means 3 work items took 29 days to complete, with 2 completed by Team Green and 1 by Team Red.
 
 The **average flow time** (displayed at the top of the graph) provides an overall summary of how long it typically takes to complete work items.
 
