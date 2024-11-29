@@ -44,7 +44,7 @@ To generate the Flow Efficiency graph, @Scale uses Azure DevOps Analytics and pr
    Queries are made for:
    - Selected ARTs (Agile Release Trains)
    - Teams associated with the ARTs
-   - Program Increment (PI) Iteration Paths
+   - Planning Intervals (PI) Iteration Paths
    - Work item types selected in the filter settings
    - States categorized as "Active" (doing) or "Waiting" (queued) based on board column configurations in Azure DevOps.
      
