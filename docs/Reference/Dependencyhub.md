@@ -1,5 +1,10 @@
 # Dependency Hub User Guide
 
+## Table of Contents
+1. [Features](#key-features)
+2. [What is Required to Show a Dependency in the Dependency Hub](#what-is-required-to-show-a-dependency-in-the-dependency-hub)
+3. [How Does the Dependency Flow Work?](#how-does-the-dependency-flow-work)
+
 ## Introduction
 
 The Dependency Hub in @Scale improves dependency management with a comprehensive, user-friendly interface. It provides real-time visibility into dependency statuses, helping teams stay on track.
