@@ -44,6 +44,8 @@ To generate the Flow Efficiency graph, @Scale uses Azure DevOps Analytics and pr
      - Program Increment (PI) Iteration Paths
      - Work item types selected in the filter settings
    - States are categorized as either "Active" (doing) or "Waiting" (queued) based on board column configurations in Azure DevOps.
+     <img width="250" alt="image" src="https://github.com/user-attachments/assets/3d8bba6b-dd65-4730-9f7f-730ee083254f">
+
 
 2. **Configuration Requirements**:
    - Ensure that all board columns in Azure DevOps are configured and mapped correctly.
