@@ -122,6 +122,53 @@ This ensures that only unhandled dependency requests and dependencies are displa
 
 <img width="1200" alt="Clean Board View" src="https://github.com/solidify/scale/assets/83336871/7f5204ca-d7ac-41d6-85c8-1585869dc5af">
 
+## What is Required to Show a Dependency in the Dependency Hub
+
+### General Rule
+A dependency will appear in the **Dependency Hub** as long as **at least one of the links (Predecessor or Successor) is tied to a PI or sprint owned by the team**. This ensures that teams can easily track relevant dependencies across different time periods and iterations.
+
+### Key Points to Remember
+1. **Visibility Criteria**:
+   - **Either the Predecessor or the Successor must exist in a sprint or PI that is currently in your view.**
+   - Dependencies remain visible even if one link occurs outside the current period.
+
+2. **Team Ownership**:
+   - The team must own the sprint or PI where at least one part of the dependency exists.
+   - Dependencies not tied to any sprint or PI owned by the team will not be displayed.
+
+3. **Works Across Time Periods**:
+   - If part of the dependency occurs before or after the current period but the other part is within a visible sprint or PI, the dependency will still be shown.
+   - This allows users to track dependencies even when they span multiple PIs or sprints.
+
+---
+
+### Example Scenarios
+
+1. **Dependency Within the Current Period**:
+   - If a dependency involves Sprint 1 and Sprint 2 in PI2:
+     - It will appear because both sprints are within the current period.
+
+2. **Dependency Spanning Multiple PIs**:
+   - If a predecessor exists in PI1 and a successor exists in Sprint 1 of PI2:
+     - It will appear because Sprint 1 is within the current view.
+
+3. **Dependency with Future Work**:
+   - If the successor exists in PI3 but the predecessor exists in Sprint 2 of PI2:
+     - It will appear because Sprint 2 is within the current view.
+
+---
+
+### Visual Guide
+
+Below is a simple flowchart to help understand the criteria for showing dependencies:
+
+```mermaid
+graph TD
+    A[Dependency Exists] --> B{Is Predecessor or Successor in a Team-owned Sprint or PI?}
+    B --> |Yes| C[Show Dependency]
+    B --> |No| D[Do Not Show Dependency]
+
+
 
 
 
