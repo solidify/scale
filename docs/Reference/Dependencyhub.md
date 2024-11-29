@@ -165,7 +165,7 @@ Below is a flowchart to clarify the process for determining if a dependency will
 ```mermaid
 graph TD
     A[Dependency Exists] --> B{Is Predecessor or Successor in a Team-owned Sprint or PI?}
-    B --> |Yes| C{Is the Sprint or PI in the Current View?}
+    B --> |Yes| C{Is the iteration under Current View?}
     C --> |Yes| D[Show Dependency]
     C --> |No| E[Do Not Show Dependency]
     B --> |No| E[Do Not Show Dependency]
