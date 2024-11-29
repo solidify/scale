@@ -22,11 +22,11 @@ Hovering over a bar displays:
 ### Example
 
 If the tooltip shows for **29 days**:
-- **Total:** 6 work items
-  - **Team Green:** 4 items
+- **Total:** 3 work items
+  - **Team Green:** 1 items
   - **Team Red:** 2 items  
 
-This means 6 work items took 29 days to complete, with 4 completed by Team Green and 2 by Team Red.
+This means 3 work items took 29 days to complete, with 1 completed by Team Green and 2 by Team Red.
 
 The **average flow time** (displayed at the top of the graph) provides an overall summary of how long it typically takes to complete work items.
 
