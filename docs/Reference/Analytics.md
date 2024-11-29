@@ -7,6 +7,7 @@ This article goes through the general usage of @Scale Flow metrics, if you'd lik
 | [Flow Predictability](Flowpredictability.md) | 
 | [Flow Velocity](Flowvelocity.md) | 
 | [Flow Time](Flowtime.md) | 
+| [Flow Efficiency](Flowefficiency.md) | 
 
 
 # Flow Metrics
