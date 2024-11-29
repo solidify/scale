@@ -4,7 +4,6 @@ Flow Efficiency is the percentage of time that work items are actively being wor
 
 <img width="900" alt="Flow Efficiency graph" src="https://github.com/solidify/scale/assets/83336871/example-flow-efficiency.png">
 
----
 
 ## How Flow Efficiency is Calculated
 
@@ -15,8 +14,23 @@ Flow Efficiency is calculated using the following formula:
 - **Active Time**: The total time work items are actively being worked on.
 - **Total Time**: The sum of Active Time and Waiting Time.
 
+### Example
 
----
+If a work item has:
+- **Active Time**: 10 days
+- **Waiting Time**: 5 days
+
+Then the **Total Time** = Active Time + Waiting Time = **10 + 5 = 15 days**
+
+Using the formula:
+
+**Flow Efficiency (%) = (Active Time ÷ Total Time) × 100**  
+**Flow Efficiency (%) = (10 ÷ 15) × 100**  
+**Flow Efficiency (%) = 66.67%**
+
+In this scenario, 66.67% of the time was spent actively working on the item, while the remaining 33.33% was spent in waiting.
+
+
 
 ## Fetching the Data
 
@@ -45,8 +59,6 @@ To generate the Flow Efficiency graph, @Scale uses Azure DevOps Analytics and pr
 4. **Cross-Project Support**:
    - Flow Efficiency supports cross-project ARTs. Ensure all involved projects and teams are configured and accessible in Azure DevOps.
 
----
-
 ## Displaying the Data
 
 The Flow Efficiency graph displays:
@@ -56,8 +68,6 @@ The Flow Efficiency graph displays:
 ### Example Scenarios
 - **Balanced Workflow**: 50% Active Time and 50% Waiting Time indicate a balanced yet improvable process.
 - **High Waiting Time**: 20% Active Time and 80% Waiting Time suggest bottlenecks or delays in the workflow.
-
----
 
 ## User Configuration
 
@@ -70,7 +80,6 @@ The Flow Efficiency graph displays:
 - Ensure board columns in Azure DevOps are correctly set as "Doing" or "Queued."
 - Split columns (e.g., "In Progress - Doing" and "In Progress - Done") are supported and automatically categorized.
 
----
 
 ## Example Use Cases
 
