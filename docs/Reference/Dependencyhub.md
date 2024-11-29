@@ -188,10 +188,11 @@ The dependency flow in the Dependency Hub is designed to streamline the process 
 
 3. **Accepted Dependency**:
    - When a request is accepted:
-     - The **Dependency Request is closed**.
+     - The **Dependency Request is marked as "Accepted"**.
+     - - It moves to the **"Closed"** category state.
      - A new **Dependency** is created and replaces the request.
      - The new dependency becomes the **Predecessor** in the system.
-     - The original request is related to the new dependency for tracking purposes.
+     - The original request is **Related** to the new dependency for tracking purposes.
 
 4. **Declined Dependency**:
    - When a request is declined:
@@ -216,7 +217,6 @@ graph TD
     B --> |Decline| G[Mark Request as Declined]
     G --> H[Move to "Removed" State]
     B --> |No Action| I[Keep in "New" State]
-```
 
 
 
