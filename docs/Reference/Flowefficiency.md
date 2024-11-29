@@ -9,7 +9,7 @@ To accurately calculate Flow Efficiency, the following conditions must be met:
 - **Work Items**:
   - Must belong to the **selected ART** (Agile Release Train) and **team(s)** specified in the dashboard filters.
 - **Iteration Paths**:
-  - Must align with the PI (Program Increment) iteration paths for the selected ART.
+  - Must align with the PI (Planning Interval) iteration paths for the selected ART.
 - **Board Columns**:
   - Must correctly reflect **Active** and **Waiting** states in Azure DevOps. For example, columns should have "Doing" or "Done" splits to categorize states appropriately.
 
