@@ -160,14 +160,15 @@ A dependency will appear in the **Dependency Hub** as long as **at least one of 
 
 ### Visual Guide
 
-Below is a simple flowchart to help understand the criteria for showing dependencies:
+Below is a flowchart to clarify the process for determining if a dependency will appear:
 
 ```mermaid
 graph TD
     A[Dependency Exists] --> B{Is Predecessor or Successor in a Team-owned Sprint or PI?}
-    B --> |Yes| C[Show Dependency]
-    B --> |No| D[Do Not Show Dependency]
-
+    B --> |Yes| C{Is the Sprint or PI in the Current View?}
+    C --> |Yes| D[Show Dependency]
+    C --> |No| E[Do Not Show Dependency]
+    B --> |No| E[Do Not Show Dependency]
 
 
 
