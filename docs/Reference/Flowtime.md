@@ -14,77 +14,79 @@ The **Flow Time Histogram** graph shows how long it takes to complete work items
 
 ### Tooltip:
 Hovering over a bar displays:
-- The number of work items in that group.
-- A breakdown by team or category (if applicable).
-
----
-
-## How Is Flow Time Calculated?
-
-Flow Time represents the total time it takes for a work item to move from start to completion. This includes:
-- **Lead Time (in Days):** The number of days a work item spends in the workflow.
-
-The histogram aggregates this data and groups work items by their flow time for visual clarity.
+- The total number of work items that took the selected number of days to complete.
+- A breakdown by teams or categories showing how many items were completed by each.
 
 ---
 
 ### Example
 
-If the histogram shows:
-- **1 Day:** 5 work items  
-- **29 Days:** 3 work items (as shown in the tooltip above)  
-This means:
-- 5 work items were completed in 1 day.
-- 3 work items were completed in 29 days.
+If the tooltip shows for **29 days**:
+- **Total:** 6 work items
+  - **Team Green:** 4 items
+  - **Team Red:** 2 items  
 
-The **average flow time** is also displayed at the top of the graph for a quick overview of overall efficiency.
+This means 6 work items took 29 days to complete, with 4 completed by Team Green and 2 by Team Red.
+
+The **average flow time** (displayed at the top of the graph) provides an overall summary of how long it typically takes to complete work items.
+
+---
+
+## How Is Flow Time Calculated?
+
+Flow Time is the total number of days it takes for a work item to move from start to completion. This includes all time spent in active and waiting states.
+
+The histogram aggregates this data and groups work items by their flow time for easy visualization.
 
 ---
 
 ## How to Use the Flow Time Histogram
 
 1. **Identify Workflow Efficiency:**
-   - Short flow times indicate a streamlined workflow.
-   - Longer flow times highlight potential delays or bottlenecks.
+   - Short flow times indicate a streamlined and efficient process.
+   - Longer flow times highlight delays or bottlenecks.
 
-2. **Compare Across Teams:**
-   - Use the tooltip to see how different teams contribute to the flow times.
+2. **Compare Teams:**
+   - Hover over bars to see how different teams contribute to flow times.
 
-3. **Set Improvement Goals:**
-   - Aim to reduce average flow time by analyzing and addressing delays.
+3. **Monitor Trends:**
+   - Use the average flow time to track changes in your team's efficiency over time.
+
+4. **Focus on Improvement:**
+   - Identify and address outliers with long flow times.
 
 ---
 
 ## User Configuration
 
 1. **Filters:**
-   - **Teams:** Select specific teams to view their flow times.
-   - **Program Increments (PIs):** Focus on work completed during a specific PI.
-   - **Work Item Types:** Filter by type (e.g., Features, Stories).
+   - **Teams:** Narrow the data to specific teams.
+   - **Planning Intervals:** Analyze work completed during a specific Planning Interval.
+   - **Work Item Types:** Focus on particular types of work (e.g., Features, Stories).
 
 2. **Adjust Date Range:**
-   - Customize the date range to analyze trends over a specific period.
+   - Select a custom date range to analyze trends over a specific period.
 
 3. **Expand View:**
-   - Use the fullscreen toggle to see the graph in more detail.
+   - Use the fullscreen toggle to enlarge the histogram for detailed analysis.
 
 ---
 
 ## FAQs
 
 **Q: What does a longer flow time indicate?**  
-A: Longer flow times may point to bottlenecks or delays in your process. Investigate these items to identify areas for improvement.
+A: Longer flow times often point to delays or inefficiencies in your workflow. Investigating these items can help uncover process bottlenecks.
 
-**Q: Can I see data for specific teams?**  
-A: Yes, use the team filter to view flow times for selected teams only.
+**Q: How do I see team-specific data?**  
+A: Hover over a bar to view the tooltip, which shows a breakdown of work items completed by each team.
 
-**Q: What does the average flow time represent?**  
-A: The average flow time is the sum of all flow times divided by the total number of work items. It provides a quick overview of your workflow's overall efficiency.
+**Q: What is the significance of the average flow time?**  
+A: The average flow time provides a quick overview of how long it typically takes to complete work items, helping you measure overall efficiency.
 
 ---
 
 ## Tips for Improvement
 
-- Analyze the histogram regularly to track progress and workflow changes.
+- Use the breakdown in the tooltip to identify which teams or categories are experiencing delays.
+- Regularly analyze flow time trends to ensure processes are improving over time.
 - Focus on reducing the longest flow times to improve the overall average.
-- Use team-specific data to identify areas where processes can be optimized.
