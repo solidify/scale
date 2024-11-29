@@ -4,6 +4,8 @@
 
 Flow Efficiency is the percentage of time that work items are actively being worked on versus the total time they are in progress. This metric helps identify delays caused by waiting times and enables teams to streamline workflows and improve productivity.
 
+---
+
 ## How Flow Efficiency is Calculated
 
 Flow Efficiency is calculated using the following formula:
@@ -29,22 +31,24 @@ Using the formula:
 
 In this scenario, 66.67% of the time was spent actively working on the item, while the remaining 33.33% was spent in waiting.
 
-
+---
 
 ## Fetching the Data
 
 To generate the Flow Efficiency graph, @Scale uses Azure DevOps Analytics and processes data as follows:
 
-1. **Querying the Data**:
-   - The entity type `WorkItemBoardSnapshot` is queried to get snapshots of work items across specified states.
-   - Queries are made for:
-     - Selected ARTs (Agile Release Trains)
-     - Teams associated with the ARTs
-     - Program Increment (PI) Iteration Paths
-     - Work item types selected in the filter settings
-   - States are categorized as either "Active" (doing) or "Waiting" (queued) based on board column configurations in Azure DevOps.
-     <img width="250" alt="image" src="https://github.com/user-attachments/assets/3d8bba6b-dd65-4730-9f7f-730ee083254f">
+1. **Querying the Data Per Day**:
+   - The entity type `WorkItemBoardSnapshot` is queried daily to retrieve snapshots of work items across specified states.
+   - Daily snapshots ensure an accurate breakdown of Active and Waiting states over time.
 
+   Queries are made for:
+   - Selected ARTs (Agile Release Trains)
+   - Teams associated with the ARTs
+   - Program Increment (PI) Iteration Paths
+   - Work item types selected in the filter settings
+   - States categorized as "Active" (doing) or "Waiting" (queued) based on board column configurations in Azure DevOps.
+     
+     <img width="250" alt="Board column configuration" src="https://github.com/user-attachments/assets/3d8bba6b-dd65-4730-9f7f-730ee083254f">
 
 2. **Configuration Requirements**:
    - Ensure that all board columns in Azure DevOps are configured and mapped correctly.
@@ -60,15 +64,19 @@ To generate the Flow Efficiency graph, @Scale uses Azure DevOps Analytics and pr
 4. **Cross-Project Support**:
    - Flow Efficiency supports cross-project ARTs. Ensure all involved projects and teams are configured and accessible in Azure DevOps.
 
+---
+
 ## Displaying the Data
 
 The Flow Efficiency graph displays:
-- Percentage breakdown of Active Time and Waiting Time.
+- Percentage breakdown of Active Time and Waiting Time per day.
 - Trends over the selected time range to highlight process inefficiencies.
 
 ### Example Scenarios
 - **Balanced Workflow**: 50% Active Time and 50% Waiting Time indicate a balanced yet improvable process.
 - **High Waiting Time**: 20% Active Time and 80% Waiting Time suggest bottlenecks or delays in the workflow.
+
+---
 
 ## User Configuration
 
@@ -81,6 +89,7 @@ The Flow Efficiency graph displays:
 - Ensure board columns in Azure DevOps are correctly set as "Doing" or "Queued."
 - Split columns (e.g., "In Progress - Doing" and "In Progress - Done") are supported and automatically categorized.
 
+---
 
 ## Example Use Cases
 
@@ -103,7 +112,7 @@ A: Ensure board columns are configured in Azure DevOps and mapped to "Doing" or 
 A: Yes, Flow Efficiency supports cross-project ARTs. Ensure all necessary permissions and configurations are in place.
 
 **Q: How often is data updated?**  
-A: Data is fetched in real-time from Azure DevOps Analytics and updated dynamically based on filter selections.
+A: Data is queried and updated daily from Azure DevOps Analytics, ensuring trends reflect accurate and timely information.
 
 ---
 
