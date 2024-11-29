@@ -1,191 +1,103 @@
-## **Understanding the Data**
+# Flow Efficiency
 
-### 1. Data Source
-- **Azure DevOps Analytics**: Flow Efficiency data is fetched using Azure DevOps Analytics integrated with @Scale.
-- **Work Item States**: The system queries work item states to distinguish between **Active** and **Waiting** times.
+Flow Efficiency is the percentage of time that work items are actively being worked on versus the total time they are in progress. This metric helps identify delays caused by waiting times and enables teams to streamline workflows and improve productivity.
 
-### 2. Requirements for Data Calculation
-To accurately calculate Flow Efficiency, the following conditions must be met:
-- **Work Items**:
-  - Must belong to the **selected ART** (Agile Release Train) and **team(s)** specified in the dashboard filters.
-- **Iteration Paths**:
-  - Must align with the PI (Planning Interval) iteration paths for the selected ART.
-- **Board Columns**:
-  - Must correctly reflect **Active** and **Waiting** states in Azure DevOps. For example, columns should have "Doing" or "Done" splits to categorize states appropriately.
-
-### 3. Data Selection
-- **User-Defined Filters**: Users can apply filters such as ART, teams, PI, and work item types. These filters dynamically adjust the data set to reflect the selected criteria.
-  
-### 4. Data Querying
-- **Fetching Configurations**: The system retrieves board configurations to map work items to their respective states.
-- **State Classification**:
-  - **Active States**: Columns marked as "Doing" or equivalent indicate active work periods.
-  - **Waiting States**: Columns not marked as "Doing" or marked as "Done" represent idle or waiting periods.
-- **Duration Calculation**: The system calculates the duration each work item spends in active and waiting states using the `daysPassed` attribute.
+<img width="900" alt="Flow Efficiency graph" src="https://github.com/solidify/scale/assets/83336871/example-flow-efficiency.png">
 
 ---
 
-## **How Flow Efficiency is Calculated**
+## How Flow Efficiency is Calculated
 
-1. **Identify Relevant Work Items**
-   - Includes work items selected based on applied filters.
-   - Matches iteration paths corresponding to the PI or team iterations.
+Flow Efficiency is calculated using the following formula:
 
-2. **Classify States**
-   - **Active States**: Represent periods when work is actively being done on the work item.
-   - **Waiting States**: Represent periods when the work item is idle or waiting for the next step.
+**Flow Efficiency (%) = (Active Time ÷ Total Time) × 100**
 
-3. **Aggregate Data**
-   - Calculate the total number of days spent in active and waiting states across all relevant work items.
+- **Active Time**: The total time work items are actively being worked on.
+- **Total Time**: The sum of Active Time and Waiting Time.
 
-4. **Calculate Efficiency**
-   - Use the aggregated data to compute the Flow Efficiency percentage:
-     \[
-     \text{Flow Efficiency} = \left( \frac{\text{Total Active Time}}{\text{Total Lead Time}} \right) \times 100
-     \]
 
 ---
 
-## **Visualizing Flow Efficiency**
+## Fetching the Data
 
-1. **Access Flow Metrics**
-   - Navigate to **@Scale Flow Metrics** in the dashboard.
+To generate the Flow Efficiency graph, @Scale uses Azure DevOps Analytics and processes data as follows:
 
-2. **Apply Filters**
-   - **ART**: Select the Agile Release Train you want to analyze.
-   - **Teams**: Choose the specific teams within the ART.
-   - **Work Item Types**: Specify the types of work items to include.
-   - **Program Increments (PIs)**: Select the relevant PIs for the analysis.
+1. **Querying the Data**:
+   - The entity type `WorkItemBoardSnapshot` is queried to get snapshots of work items across specified states.
+   - Queries are made for:
+     - Selected ARTs (Agile Release Trains)
+     - Teams associated with the ARTs
+     - Program Increment (PI) Iteration Paths
+     - Work item types selected in the filter settings
+   - States are categorized as either "Active" (doing) or "Waiting" (queued) based on board column configurations in Azure DevOps.
 
-3. **View the Flow Efficiency Graph**
-   - The graph displays:
-     - **Percentage of Active Time**: Indicates the proportion of time work items are actively being worked on.
-     - **Percentage of Waiting Time**: Shows the proportion of time work items are idle.
-     - **Historical Trends**: Provides insights into how Flow Efficiency has evolved over time.
+2. **Configuration Requirements**:
+   - Ensure that all board columns in Azure DevOps are configured and mapped correctly.
+   - Missing columns will result in incomplete data in the Flow Efficiency calculation.
 
----
+3. **Data Selection**:
+   - Filters applied in the @Scale analytics interface determine:
+     - Work item types
+     - Teams
+     - ARTs and PIs
+   - Only relevant iterations and states are included in the calculation.
 
-## **Example Scenario**
-
-**Given:**
-- A work item spends **5 days** in active states and **10 days** in waiting states.
-
-**Calculation:**
-- **Total Lead Time** = Active Time + Waiting Time = 5 + 10 = 15 days.
-- **Flow Efficiency** = \( \frac{5}{15} \times 100 = 33.33\% \).
-
-**Interpretation:**
-- The team is actively working on tasks only **33.33%** of the time, indicating significant opportunities to streamline processes and reduce idle periods.
+4. **Cross-Project Support**:
+   - Flow Efficiency supports cross-project ARTs. Ensure all involved projects and teams are configured and accessible in Azure DevOps.
 
 ---
 
-## **Key Insights for Users**
+## Displaying the Data
 
-- **Improving Efficiency**:
-  - **Reduce Waiting Time**: Identify and address bottlenecks to minimize idle periods.
-  - **Optimize Workflows**: Ensure tasks move smoothly between active states to enhance overall productivity.
+The Flow Efficiency graph displays:
+- Percentage breakdown of Active Time and Waiting Time.
+- Trends over the selected time range to highlight process inefficiencies.
 
-- **Setting Up Boards Correctly**:
-  - **Clear State Definitions**: Ensure all team boards in Azure DevOps have distinct "Doing" and "Done" splits for columns to provide accurate data.
-  - **Consistent Configuration**: Maintain consistent board configurations across teams to ensure reliable Flow Efficiency metrics.
-
-- **Cross-Project ARTs**:
-  - **Consistent Configuration**: Teams across multiple projects must configure their boards and filters consistently for accurate data aggregation.
-  - **Access Permissions**: Ensure appropriate access permissions across all involved projects to visualize complete data sets.
+### Example Scenarios
+- **Balanced Workflow**: 50% Active Time and 50% Waiting Time indicate a balanced yet improvable process.
+- **High Waiting Time**: 20% Active Time and 80% Waiting Time suggest bottlenecks or delays in the workflow.
 
 ---
 
-## **Technical Details for Administrators**
+## User Configuration
 
-### **Data Query Process**
+### Filters
+- Use the filter options in the @Scale analytics settings to customize the data displayed:
+  - Select ARTs, PIs, teams, and work item types.
+  - Adjust date ranges to focus on specific periods.
 
-- **Board Configuration Retrieval**:
-  - Utilizes the `getBoardColumnsConfiguration` function to fetch board column settings.
-  - Maps columns into **Active** (e.g., "Doing") and **Waiting** (e.g., "Done") categories based on configuration.
-
-- **Flow Efficiency Calculation**:
-  - Employs the `calculateFlowEfficiency` function to compute percentages from the active and waiting durations.
-  - Aggregates data using work item states and `daysPassed` to determine total active and waiting times.
-
-### **Configuration Requirements**
-
-- **Backlog Levels**:
-  - Ensure backlog levels are correctly mapped and visible in the work item forms.
-  - Configure backlog levels to include necessary fields such as **Actual Value** and **Planned Value**.
-
-- **Flow Efficiency Configuration**:
-  - Use the `useFlowEfficiencyConfiguration` hook to manage Flow Efficiency settings.
-  - Ensure teams are correctly mapped and backlog levels are appropriately filtered.
-
-- **Iteration Path Mapping**:
-  - Confirm that iteration paths are correctly associated with PIs and teams.
-  - Use the `usePiIterationPaths` hook to manage PI iteration paths.
-
-### **Code Overview**
-
-- **Data Fetching**:
-  - Uses `useQuery` from `@tanstack/react-query` to asynchronously fetch data based on selected filters.
-  - Filters data based on ART, teams, work item types, and PIs to ensure relevant data is processed.
-
-- **State Management**:
-  - Implements hooks like `useFlowEfficiencyConfiguration` and `useFlowEfficiencyData` to manage configurations and data fetching.
-  - Utilizes mutations (`useMutation`) to handle configuration updates, ensuring data consistency.
-
-- **Error Handling & Optimization**:
-  - Incorporates query invalidation and caching strategies to optimize data fetching and reduce load times.
-  - Ensures that data queries are enabled only when necessary conditions are met, improving performance.
+### Board Configuration
+- Ensure board columns in Azure DevOps are correctly set as "Doing" or "Queued."
+- Split columns (e.g., "In Progress - Doing" and "In Progress - Done") are supported and automatically categorized.
 
 ---
 
-## **Access and Permissions**
+## Example Use Cases
 
-### **Data Access**
-- **Azure DevOps Analytics**: Flow Efficiency analytics are powered by Azure DevOps Analytics, ensuring data is up-to-date and accurate.
-- **User Permissions**: Users must have **Basic access** or higher within their Azure DevOps projects to access Flow Efficiency metrics.
+1. **Identifying Bottlenecks**:
+   - A high percentage of Waiting Time indicates potential areas where work is delayed.
+   - Drill down into specific states or work item types causing delays.
 
-### **Cross-Project ARTs**
-- **Multiple Projects**: For insights spanning multiple projects, users must have the necessary access permissions across all involved projects.
-- **Data Visualization**: Proper access ensures that data from all relevant projects is aggregated and visualized correctly in the Flow Efficiency graphs.
-
----
-
-## **Getting Started with Flow Efficiency**
-
-1. **Enable Analytics Preview**
-   - Navigate to **Analytics Settings** in your dashboard.
-   - Turn on the **Preview Toggle** to access the new analytics view.
-
-   ![Enable Preview Toggle](https://github.com/solidify/scale/assets/83336871/c2d4f668-8eeb-4e61-8cc3-95ba3c05c41c)
-
-2. **Access Flow Metrics Dashboard**
-   - From the **@Scale Dashboards** dropdown, select **Flow Metrics**.
-
-   ![Select Flow Metrics](https://github.com/solidify/scale/assets/83336871/8fd3b96d-f9d1-4344-b4f0-e93e55bd315e)
-
-3. **Configure Filters**
-   - Use the filters to select the **ART**, **work item types**, **teams**, and **program increments** you want to include in the Flow Efficiency charts.
-
-   ![Configure Filters](https://github.com/solidify/scale/assets/83336871/0edc7273-0abe-42c1-acc3-7384143cffc8)
-
-4. **View and Analyze Flow Efficiency**
-   - The Flow Efficiency graph will display the percentage of active and waiting times.
-   - Toggle metrics into full-screen mode for a detailed view.
-
-   ![Flow Efficiency Graph](https://github.com/solidify/scale/assets/83336871/f88a8337-b12c-47e8-8e30-6cdb5f73b05e)
+2. **Optimizing Workflow**:
+   - Increase Active Time by minimizing time spent in Waiting states.
+   - Adjust team processes or priorities to address inefficiencies.
 
 ---
 
-## **References**
+## FAQs
 
-- **Scaled Agile Framework Metrics Guide**: Deepen your understanding of SAFe metrics through the [Scaled Agile Framework's official metrics guide](https://www.scaledagileframework.com/metrics).
-- **Azure DevOps Analytics Permissions**: Learn about the necessary [permissions and prerequisites for accessing Analytics in Azure DevOps](https://learn.microsoft.com/en-us/azure/devops/report/analytics/analytics-permissions-prerequisites?view=azure-devops).
+**Q: What if no data is displayed in the graph?**  
+A: Ensure board columns are configured in Azure DevOps and mapped to "Doing" or "Queued." Missing configurations can result in incomplete data.
+
+**Q: Can I analyze data across multiple projects?**  
+A: Yes, Flow Efficiency supports cross-project ARTs. Ensure all necessary permissions and configurations are in place.
+
+**Q: How often is data updated?**  
+A: Data is fetched in real-time from Azure DevOps Analytics and updated dynamically based on filter selections.
 
 ---
 
-## **Support and Feedback**
+## References
 
-If you encounter any issues or have suggestions for improving the Flow Efficiency metrics, please reach out to our support team or submit feedback through the @Scale platform.
-
----
-
-*© 2024 @Scale Analytics Documentation. All rights reserved.*
+- [Azure DevOps Analytics Permissions and Prerequisites](https://learn.microsoft.com/en-us/azure/devops/report/analytics/analytics-permissions-prerequisites?view=azure-devops)
+- [SAFe Metrics Guide](https://www.scaledagileframework.com/metrics)
