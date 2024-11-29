@@ -20,7 +20,7 @@ Hovering over a bar displays:
 ---
 
 ### Example
-<img width="112" alt="image" src="https://github.com/user-attachments/assets/1166c2e6-7b47-4008-9ea7-ea5320863bd5">
+<img width="200" alt="image" src="https://github.com/user-attachments/assets/1166c2e6-7b47-4008-9ea7-ea5320863bd5">
 
 If the tooltip shows for **29 days**:
 - **Total:** 3 work items
