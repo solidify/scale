@@ -15,7 +15,7 @@ The **Flow Time Histogram** graph shows how long it takes to complete work items
 ### Tooltip:
 Hovering over a bar displays:
 - The total number of work items that took the selected number of days to complete.
-- A breakdown by teams or categories showing how many items were completed by each.
+- A breakdown by teams showing how many items were completed by each.
 
 ---
 
