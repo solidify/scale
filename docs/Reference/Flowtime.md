@@ -65,7 +65,7 @@ The histogram aggregates this data and groups work items by their flow time for 
    - **Work Item Types:** Focus on particular types of work (e.g., Features, Stories).
 
 2. **Adjust Date Range:**
-   - Select a custom date range to analyze trends over a specific period.
+   - Select a PI to analyze trends over a specific period.
 
 3. **Expand View:**
    - Use the fullscreen toggle to enlarge the histogram for detailed analysis.
