@@ -209,14 +209,15 @@ The dependency flow in the Dependency Hub is designed to streamline the process 
 
 ```mermaid
 graph TD
-    A[New Dependency Request] --> B{Team Action?}
+    A[New Dependency Request] --> B{Did the Team Take Action?}
     B --> |Accept| C[Close Request]
     C --> D[Create New Dependency]
     D --> E[Dependency Becomes Predecessor]
     C --> F[Link Request to Dependency]
     B --> |Decline| G[Mark Request as Declined]
-    G --> H[Move to "Removed" State]
-    B --> |No Action| I[Keep in "New" State]
+    G --> H[Move to 'Removed' State]
+    B --> |No Action| I[Keep in 'New' State]
+
 
 
 
