@@ -169,9 +169,7 @@ graph TD
     C --> |Yes| D[Show Dependency]
     C --> |No| E[Do Not Show Dependency]
     B --> |No| E[Do Not Show Dependency]
-
-
-
+```
 
 ## How Does the Dependency Flow Work?
 
@@ -218,7 +216,7 @@ graph TD
     B --> |Decline| G[Mark Request as Declined]
     G --> H[Move to "Removed" State]
     B --> |No Action| I[Keep in "New" State]
-
+```
 
 
 
