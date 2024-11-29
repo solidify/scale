@@ -170,6 +170,53 @@ graph TD
     C --> |No| E[Do Not Show Dependency]
     B --> |No| E[Do Not Show Dependency]
 
+## How Does the Dependency Flow Work?
+
+The dependency flow in the Dependency Hub is designed to streamline the process of managing and resolving cross-team dependencies. This section explains how a dependency request moves through the system and how its state evolves based on team actions.
+
+---
+
+### Dependency Flow
+
+1. **New Dependency Request**:
+   - A team creates a new dependency request and assigns it to another team.
+   - The request is added to the recipient team's Dependency Hub in the **"New"** state.
+
+2. **Team Response**:
+   - The recipient team must **accept** or **decline** the dependency request.
+
+3. **Accepted Dependency**:
+   - When a request is accepted:
+     - The **Dependency Request is closed**.
+     - A new **Dependency** is created and replaces the request.
+     - The new dependency becomes the **Predecessor** in the system.
+     - The original request is related to the new dependency for tracking purposes.
+
+4. **Declined Dependency**:
+   - When a request is declined:
+     - The **Dependency Request is marked as "Declined"**.
+     - It moves to the **"Removed"** category state.
+     - A reason for the decline can be documented for visibility and transparency.
+
+5. **Pending Dependency**:
+   - Until a request is acted upon, it remains in the **"New"** (Pending) state.
+
+---
+
+### Visual Guide to Dependency Flow
+
+```mermaid
+graph TD
+    A[New Dependency Request] --> B{Team Action?}
+    B --> |Accept| C[Close Request]
+    C --> D[Create New Dependency]
+    D --> E[Dependency Becomes Predecessor]
+    C --> F[Link Request to Dependency]
+    B --> |Decline| G[Mark Request as Declined]
+    G --> H[Move to "Removed" State]
+    B --> |No Action| I[Keep in "New" State]
+
+
 
 
 
