@@ -1,9 +1,8 @@
 # Flow Efficiency
 
-Flow Efficiency is the percentage of time that work items are actively being worked on versus the total time they are in progress. This metric helps identify delays caused by waiting times and enables teams to streamline workflows and improve productivity.
-
 <img width="900" alt="Flow Efficiency graph" src="https://github.com/user-attachments/assets/3a2f94cc-6a69-4401-a222-0ec04ed0fd60">
 
+Flow Efficiency is the percentage of time that work items are actively being worked on versus the total time they are in progress. This metric helps identify delays caused by waiting times and enables teams to streamline workflows and improve productivity.
 
 ## How Flow Efficiency is Calculated
 
