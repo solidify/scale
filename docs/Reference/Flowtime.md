@@ -50,8 +50,6 @@ stateDiagram
     note "State Categories" as Note1
     note "Completed" as Note2
     
-    Proposed --> Note1
-    Closed --> Note2
     style Closed fill:#90ee90,stroke:#2d6a2d,stroke-width:2px
 ```
 
