@@ -41,15 +41,16 @@ The histogram aggregates this data and groups work items by their flow time for 
 
 ```mermaid
 stateDiagram
-    WorkItemCreation --> Proposed: Flow Time
+    direction LR
+    [*] --> Proposed : Lead Time
     Proposed --> New
     New --> Approved
     Approved --> Committed
     Committed --> Active
     Active --> Resolved
     Resolved --> Closed
-    note left of Proposed: State Categories
-    note right of Closed: Completed
+    note top of Proposed : State Categories
+    note top of Closed : Completed
 ```
 
 ---
