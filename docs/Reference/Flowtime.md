@@ -49,10 +49,12 @@ stateDiagram
     Committed --> Active
     Active --> Resolved
     Resolved --> Closed
-    
-    note top of Proposed: State Categories
-    note top of Closed: Completed
 
+    note "State Categories" as Note1
+    note "Completed" as Note2
+    
+    Proposed --> Note1
+    Closed --> Note2
 ```
 
 ---
