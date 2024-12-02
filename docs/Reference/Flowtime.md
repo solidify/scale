@@ -39,6 +39,19 @@ Flow Time is the total number of days it takes for a work item to move from star
 
 The histogram aggregates this data and groups work items by their flow time for easy visualization.
 
+```mermaid
+stateDiagram
+    WorkItemCreation --> Proposed: Lead Time
+    Proposed --> New
+    New --> Approved
+    Approved --> Committed
+    Committed --> Active
+    Active --> Resolved
+    Resolved --> Closed
+    note left of Proposed: State Categories
+    note right of Closed: Completed
+```
+
 ---
 
 ## How to Use the Flow Time Histogram
