@@ -35,7 +35,7 @@ The **average flow time** (displayed at the top of the graph) provides an overal
 
 ## How Is Flow Time Calculated?
 
-Flow Time is the total number of days it takes for a work item to move from start **New State** to completion. This includes all time spent in backlog, active and all states before closed.
+Flow Time is the total number of days it takes for a work item to move from start (**New State**) to completion. This includes all time spent in backlog, active and all states before closed.
 
 The histogram aggregates this data and groups work items by their flow time for easy visualization.
 
