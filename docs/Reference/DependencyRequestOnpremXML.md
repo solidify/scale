@@ -454,6 +454,48 @@ Here is a simple example, but you might need to adjust it for organization-speci
 
 Modify your current process template XML to include the "Dependency Request" work item type.
 
+Add the icon for the work item type. 
+
+```diff
+<Properties>
+    ...
+    <Property 
+        name="WorkItemTypeIcons" 
+        value="
+        Bug=icon_insect,
+        Code Review Request=icon_code_review,
+        Code Review Response=icon_code_response,
+        Epic=icon_crown,    
+        Feature=icon_trophy,
+        Feedback Request=icon_review,   
+        Feedback Response=icon_response,   
+        Impediment=icon_traffic_cone,
+        Product Backlog Item=icon_list,
+        Shared Parameter=icon_test_parameter,   
+        Shared Steps=icon_test_step,
+        Task=icon_clipboard,
+        Test Case=icon_test_case,
+        Test Plan=icon_test_plan,Test   
+        Suite=icon_test_suite, 
++       Dependency Request=icon_review
+        " 
+    />
+</Properties>
+```
+
+Add the work item color for the work item type. 
+
+```diff
+<WorkItemColors>
+    ...
++   <WorkItemColor 
+        primary="FFFF0000" 
+        secondary="FFFFEAEA" 
+        name="Dependency Request" 
+    />
+</WorkItemColors>
+```
+
 ## Step 3: Configure the Dependency Hub in @Scale
 
 1. Go to the new menu option **Dependencies**.
@@ -464,6 +506,6 @@ Modify your current process template XML to include the "Dependency Request" wor
 
 1. Go to the **Dependency Hub** in @Scale.
 2. Create a new **Dependency Request** in the view.
-3. Ensure the states (Pending, Accepted, Declined) and transitions work as expected.
+3. Ensure the states (New, Done, Removed) and transitions work as expected.
 
 That's it! You've successfully created a "Dependency Request" work item type in Azure DevOps using the XML process model and configured it in the Dependency Hub in @Scale.
