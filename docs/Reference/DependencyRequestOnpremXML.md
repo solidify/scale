@@ -489,10 +489,10 @@ Add the work item color for the work item type.
 <WorkItemColors>
     ...
 +   <WorkItemColor 
-        primary="FFFF0000" 
-        secondary="FFFFEAEA" 
-        name="Dependency Request" 
-    />
++       primary="FFFF0000" 
++       secondary="FFFFEAEA" 
++       name="Dependency Request" 
++   />
 </WorkItemColors>
 ```
 
