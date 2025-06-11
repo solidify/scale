@@ -111,11 +111,11 @@ With the configuration defined we can now post it to the extension storage servi
 ```powershell
 $AzureDevOpsPAT = "YOUR-PERSONAL-ACCESS-TOKEN"
 $AzureDevOpsAuthenicationHeader = @{Authorization = 'Basic ' + [Convert]::ToBase64String([Text.Encoding]::ASCII.GetBytes(":$($AzureDevOpsPAT)")) }
-
-$collectionName = "COLLECTION-NAME"
-$documentId = "DOCUMENT-ID"
+	
+$collectionName = "PROCESS-CONFIG-<project id>"
+$documentId = "PROCESS-CONFIG"
 $extensionData = "SETTING-JSON" # Use Get to fetch a starting value that you want to modify
-$uriApi = "https://extmgmt.dev.azure.com/YOUR-PROJECT/_apis/ExtensionManagement/InstalledExtensions/solidify/solidify-scale/Data/Scopes/Default/Current/Collections/$collectionName/Documents/$documentId?api-version=3.2-preview.1"
+$uriApi = "https://{instance}/{collection}/_apis/ExtensionManagement/InstalledExtensions/solidify/solidify-scale/Data/Scopes/Default/Current/Collections/$collectionName/Documents/$documentId?api-version=3.2-preview.1"
 Invoke-RestMethod -Uri $uriApi -Method Post -Headers $AzureDevOpsAuthenicationHeader -Body $extensionData -ContentType "application/json"
 
 ```
