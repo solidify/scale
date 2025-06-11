@@ -46,10 +46,6 @@ References:
 # Add custom work item types
 Next we need to add the required work item types to your project.
 
-Sample files for customizing an Xml based collection: https://solidifysv.sharepoint.com/sites/Solidify/Delade%20dokument/Scale%20extension/On-premises/scale-1.3-xml-collection-config.zip (internal)
-
-Check out this video on how to configure Scale on-prem: https://solidifysv.sharepoint.com/sites/Solidify/Delade%20dokument/Scale%20extension/Videos/Scale%20-%20config%20onprem%20xml%20process.mp4 (internal)
-
 The below PowerShell script will add all wit* definitions to the specified project:
 
 ```powershell
@@ -112,9 +108,6 @@ Note: if you stick to the configuration in the default SAFe json document then t
 With the configuration defined we can now post it to the extension storage service in Azure DevOps. To do so you can use the PowerShell script we share with you, providing the following:
 * Organization URL.
 * Personal Access Token. A user PAT with permission to read and write extension data.
-
-![image.png](/.attachments/image-4b4c16d0-3720-4033-86c5-5191725ae33a.png)
-
 * Project name.
 
 # Purchase @Scale
