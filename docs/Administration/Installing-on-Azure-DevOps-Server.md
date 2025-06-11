@@ -1,7 +1,5 @@
 Unlike if you are using Azure DevOps Service (cloud), running Azure DevOps Services on-premise currently requires us to do some manual configuration. Should the APIs to automate the way we configure @Scale in the service also come to Azure DevOps Server we will of course leverage that option and this guide will be obsolete.
 
-[[_TOC_]]
-
 # Create process config for reference or customization
 We define the process configuration for Scale in a json file containing the types and fields we use. Use it as is or customize the mappings for work item types and fields. The id field is what keeps the config together so that's the one thing you should not change. The Name field is most likely what you want to change if you prefer the work item types to be named differently. The config file will be used in the final step of the configuration process.
 
