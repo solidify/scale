@@ -108,5 +108,17 @@ With the configuration defined we can now post it to the extension storage servi
 * Personal Access Token. A user PAT with permission to read and write extension data.
 * Project name.
 
+```powershell
+$AzureDevOpsPAT = "YOUR-PERSONAL-ACCESS-TOKEN"
+$AzureDevOpsAuthenicationHeader = @{Authorization = 'Basic ' + [Convert]::ToBase64String([Text.Encoding]::ASCII.GetBytes(":$($AzureDevOpsPAT)")) }
+
+$collectionName = "COLLECTION-NAME"
+$documentId = "DOCUMENT-ID"
+$extensionData = "SETTING-JSON" # Use Get to fetch a starting value that you want to modify
+$uriApi = "https://extmgmt.dev.azure.com/YOUR-PROJECT/_apis/ExtensionManagement/InstalledExtensions/solidify/solidify-scale/Data/Scopes/Default/Current/Collections/$collectionName/Documents/$documentId?api-version=3.2-preview.1"
+Invoke-RestMethod -Uri $uriApi -Method Post -Headers $AzureDevOpsAuthenicationHeader -Body $extensionData -ContentType "application/json"
+
+```
+
 # Purchase @Scale
 After you have completed the trial, the license needs to be updated with the correct license details. For an online license we will update this for you, for offline the license key needs to be uploaded again.
