@@ -42,7 +42,7 @@ References:
 * [Latest config](https://github.com/solidify/scale/tree/master/config)
 
 # Add custom work item types
-Next we need to add the required work item types to your project.
+Next we need to add the required work item types to your project. You can find the xml for the work item types [here](./attachments/scale-wits.zip)
 
 The below PowerShell script will add all wit* definitions to the specified project:
 
