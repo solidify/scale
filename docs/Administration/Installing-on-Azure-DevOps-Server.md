@@ -115,7 +115,7 @@ $AzureDevOpsAuthenicationHeader = @{Authorization = 'Basic ' + [Convert]::ToBase
 $collectionName = "PROCESS-CONFIG-<project id>"
 $documentId = "PROCESS-CONFIG"
 $extensionData = "SETTING-JSON" # Use Get to fetch a starting value that you want to modify
-$uriApi = "https://{instance}/{collection}/_apis/ExtensionManagement/InstalledExtensions/solidify/solidify-scale/Data/Scopes/Default/Current/Collections/$collectionName/Documents/$documentId?api-version=3.2-preview.1"
+$uriApi = "https://{instance}/{collection}/_apis/ExtensionManagement/InstalledExtensions/solidify/solidify-scale/Data/Scopes/Default/Current/Collections/$collectionName/Documents?api-version=3.2-preview.1"
 Invoke-RestMethod -Uri $uriApi -Method Post -Headers $AzureDevOpsAuthenicationHeader -Body $extensionData -ContentType "application/json"
 
 ```
