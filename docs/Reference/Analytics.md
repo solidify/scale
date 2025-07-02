@@ -25,10 +25,6 @@ This article goes through the general usage of @Scale Flow metrics, if you'd lik
 |Flow Efficiency|Flow Efficiency is the percentage of time that work is actively being worked on. It is calculated by dividing the total active time by the total lead time.|
 |Flow Predictability|Flow Predictability calculates the ratio of planned business value achieved to actual business value on PI objectives delivered in a PI.|
 
-To access the new analytics view, go to analytics settings and turn on the preview toggle.
-
-<img width="759" alt="image" src="https://github.com/solidify/scale/assets/83336871/c2d4f668-8eeb-4e61-8cc3-95ba3c05c41c">
-
 From the @Scale dashboards dropdown, select Flow Metrics to start configuring the charts.
 
 <img width="543" alt="image" src="https://github.com/solidify/scale/assets/83336871/8fd3b96d-f9d1-4344-b4f0-e93e55bd315e">
@@ -67,20 +63,8 @@ While the details of data queries and processing are managed by @Scale, it’s e
 - Deepen your understanding of SAFe metrics through the [Scaled Agile Framework's official metrics guide](https://www.scaledagileframework.com/metrics).
 - Learn about the necessary [permissions and prerequisites for accessing Analytics in Azure DevOps](https://learn.microsoft.com/en-us/azure/devops/report/analytics/analytics-permissions-prerequisites?view=azure-devops).
 
-
-# Original Metrics
-
-# Solution Train Predictability 
-This report shows how the ART delivers on the objectives compared to what was planned. Only committed objectives are included in the diagram. The diagram shows the percentage of actual business value compared to estimated business value for each ART and program increment. The average for all ARTs is also shown as a metric for the predictability of the group.
-
-# Program Predictability
-The Program Predictability report works in the same way as the Solution Train Predictability report but instead of ARTs the performance of each Team in the selected ART is shown.
-
-![image](https://user-images.githubusercontent.com/7904771/124176582-5aa7a400-daaf-11eb-8e05-058e93e08b1a.png)
-
 # Analytics view controls
 
 | **Control** | **Function** |
 |---|---|
-| ![image.png](/docs/.attachments/image-4e95335d-c334-4344-a917-3250b39f98fb.png) | Select active program increment |
 | ![image.png](/docs/.attachments/image-9e9e362c-248f-49d9-a2b2-03962629a97c.png) | Enter or exit full screen mode |
