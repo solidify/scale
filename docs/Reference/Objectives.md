@@ -9,12 +9,15 @@ Linking and unlinking board items is done from the action commands on each row (
 When loaded, the Workspace and Team nodes are collapsed to give you a better overview. Click the expander link (8) to show the objectives and linked board items.
 
 ![image](/docs/.attachments/objectives-overview.png)
+![image.png](/docs/.attachments/objectives-teams.png)
+
 
 ## New objective
 
 To add a new objective you only need to give it a title. Then later you can edit the objective to set if it is a committed or uncommitted objective. You can also set the planned business value and, at a later point, the actual business value for the delivered feature.
 
 ![image.png](/docs/.attachments/objectives-add-new.png)
+
 
 ## Objective commands
 
