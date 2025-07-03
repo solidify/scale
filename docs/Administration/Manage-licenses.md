@@ -37,6 +37,31 @@ Next add users by searching the users directory and select the user should ne as
 
   ![image.png](/docs/.attachments/image-df01a0ba-ac88-4cee-8025-c175e4e3adeb.png)
 
+## Add multiple licenses via file import
+
+To assign multiple by importing a list of users, begin by clicking on the Import button
+![image.png](/docs/.attachments/import-button.png)
+
+Export CSV or Excel template and add the users you are assigning licenses to. If you want to create your own file to begin with, you need to include the column headers Username and Access. Keep in mind you need to define a valid username (the email address registered to the user in the Azure DevOps organisation) and access role (Read only, Contributor, Project Administrator or Extension Administrator) for each user.
+
+![image.png](/docs/.attachments/import-dialog.png)
+
+Click Browse files button to upload your file.
+
+You should now see an overview of all users that will be added and their roles. You should also see the number of remaining licenses. You are able to change the access role in the role dropdowns and remove users from the list by clicking on the trash icon.
+
+![image.png](/docs/.attachments/import-user-success.png)
+
+Click the Upload button to add the licenses to the users.
+
+If a user does not exist within the organisation, they will not be added to the list and a warning message will be shown in the dialog. Click View details to see the invalid users. The users with valid usernames will still be added to be uploaded.
+
+![image.png](/docs/.attachments/import-user-fail.png)
+
+If a user has an invalid access role, a warning symbol is shown next to the role selector. In order to continue with uploading and assigning licenses, you then have to select a valid role.
+
+![image.png](/docs/.attachments/import-user-invalid.png)
+
 ## Assign license request
 
 If users have requested a license the number of requests shows as a tile on the add users button.
