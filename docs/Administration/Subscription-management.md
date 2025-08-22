@@ -9,7 +9,7 @@ When you enter @Scale for the first time you can create a trial subscription by 
 * Heading into Azure DevOps > Boards > @Scale.  Select a plan and choose to start a **free trial**,
 * Heading into Azure DevOps Organization/collection settings and you'll find @Scale in the bottom of the list to the left.
 
-![image.png](https://user-images.githubusercontent.com/83336871/202509186-c08a7c10-c864-42ad-b445-364f9def6492.png)
+![image.png](/docs/.attachments/trial-screen.png)
 
 We currently have the following plans:
 
@@ -86,7 +86,7 @@ If you want to purchase @Scale and pay by invoice then contact us at [scale@soli
 
 # Trial
 
-You should be able to try @Scale before you buy, therefore we offer a 30-day free trial per Azure DevOps organization. 
+You should be able to try @Scale before you buy, therefore we offer a 14-day free trial per Azure DevOps organization. 
 
 <img width="649" alt="image" src="https://user-images.githubusercontent.com/83336871/202516361-5638aa20-8b91-4f9e-8232-f7bfd5a9b042.png">
 
